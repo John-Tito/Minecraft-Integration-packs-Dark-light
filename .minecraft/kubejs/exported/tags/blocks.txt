@@ -1,4 +1,4 @@
-To refresh this file, delete it and run /reload command again! Last updated: Nov 23, 2022 6:31:24 PM
+To refresh this file, delete it and run /reload command again! Last updated: Nov 19, 2022 6:41:37 PM
 
 #byg:pine_logs
 - byg:pine_log
@@ -7,8 +7,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - byg:stripped_pine_wood
 
 #forge:glass_panes/magenta
-- minecraft:magenta_stained_glass_pane
 - tconstruct:magenta_clear_stained_glass_pane
+- minecraft:magenta_stained_glass_pane
 
 #byg:ground_kovan_flower
 - #forge:dirt
@@ -26,8 +26,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - minecraft:netherite_block
 
 #forge:glass_panes/white
-- minecraft:white_stained_glass_pane
 - tconstruct:white_clear_stained_glass_pane
+- minecraft:white_stained_glass_pane
 
 #tconstruct:slimy_leaves
 - tconstruct:earth_slime_leaves
@@ -38,8 +38,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - minecraft:black_wool
 
 #forge:glass_panes/light_gray
-- minecraft:light_gray_stained_glass_pane
 - tconstruct:light_gray_clear_stained_glass_pane
+- minecraft:light_gray_stained_glass_pane
 
 #forge:storage_blocks/nickel
 - immersiveengineering:storage_nickel
@@ -97,6 +97,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - minecraft:end_stone
 - minecraft:iron_bars
 - minecraft:respawn_anchor
+- tconstruct:obsidian_pane
 - twilightforest:boss_spawner_naga
 - twilightforest:boss_spawner_lich
 - twilightforest:boss_spawner_minoshroom
@@ -116,13 +117,12 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - twilightforest:vanishing_block
 - twilightforest:locked_vanishing_block
 - twilightforest:keepsake_casket
-- tconstruct:obsidian_pane
 - botania:infrangible_platform
 - #tombstone:graves
 
 #forge:glass/pink
-- minecraft:pink_stained_glass
 - tconstruct:pink_clear_stained_glass
+- minecraft:pink_stained_glass
 
 #forge:chests
 - #forge:chests/electric
@@ -136,8 +136,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - minecraft:emerald_block
 
 #forge:ores/redstone
-- minecraft:redstone_ore
 - byg:cryptic_redstone_ore
+- minecraft:redstone_ore
 
 #tconstruct:harvestable
 - minecraft:pumpkin
@@ -164,8 +164,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - #tconstruct:scorched_tanks
 
 #forge:glass/red
-- minecraft:red_stained_glass
 - tconstruct:red_clear_stained_glass
+- minecraft:red_stained_glass
 
 #chiselsandbits:chiselable/forced
 - immersiveengineering:insulating_glass
@@ -207,8 +207,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - libvulpes:oreiridium
 
 #forge:glass_panes/green
-- minecraft:green_stained_glass_pane
 - tconstruct:green_clear_stained_glass_pane
+- minecraft:green_stained_glass_pane
 
 #carryon:block_blacklist
 - #tombstone:player_graves
@@ -273,23 +273,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - minecraft:trapped_chest
 
 #forge:fence_gates
-- aoa3:achony_fence_gate
-- aoa3:bloodwood_fence_gate
-- aoa3:churry_fence_gate
-- aoa3:creep_fence_gate
-- aoa3:dawnwood_fence_gate
-- aoa3:hauntedwood_fence_gate
-- aoa3:irowood_fence_gate
-- aoa3:lucalus_fence_gate
-- aoa3:lunide_fence_gate
-- aoa3:runic_fence_gate
-- aoa3:shadow_fence_gate
-- aoa3:shyre_fence_gate
-- aoa3:stranglewood_fence_gate
-- aoa3:toxicwood_fence_gate
-- aoa3:twinklestone_fence_gate
-- #forge:fence_gates/wooden
-- #twilightforest:fence_gates
 - byg:aspen_fence_gate
 - byg:baobab_fence_gate
 - byg:blue_enchanted_fence_gate
@@ -319,6 +302,26 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - byg:bulbis_fence_gate
 - byg:nightshade_fence_gate
 - byg:imparius_fence_gate
+- #forge:fence_gates/wooden
+- #twilightforest:fence_gates
+- aoa3:achony_fence_gate
+- aoa3:bloodwood_fence_gate
+- aoa3:churry_fence_gate
+- aoa3:creep_fence_gate
+- aoa3:dawnwood_fence_gate
+- aoa3:hauntedwood_fence_gate
+- aoa3:irowood_fence_gate
+- aoa3:lucalus_fence_gate
+- aoa3:lunide_fence_gate
+- aoa3:runic_fence_gate
+- aoa3:shadow_fence_gate
+- aoa3:shyre_fence_gate
+- aoa3:stranglewood_fence_gate
+- aoa3:toxicwood_fence_gate
+- aoa3:twinklestone_fence_gate
+
+#forge:storage_blocks/titaniumaluminide
+- advancedrocketry:blocktitaniumaluminide
 
 #forge:storage_blocks/carminite
 - twilightforest:carminite_block
@@ -355,14 +358,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - twilightforest:arctic_fur_block
 
 #forge:sandstone
-- minecraft:sandstone
-- minecraft:cut_sandstone
-- minecraft:chiseled_sandstone
-- minecraft:smooth_sandstone
-- minecraft:red_sandstone
-- minecraft:cut_red_sandstone
-- minecraft:chiseled_red_sandstone
-- minecraft:smooth_red_sandstone
 - byg:black_sandstone
 - byg:black_chiseled_sandstone
 - byg:black_cut_sandstone
@@ -378,23 +373,31 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - byg:pink_sandstone
 - byg:pink_chiseled_sandstone
 - byg:pink_cut_sandstone
+- minecraft:sandstone
+- minecraft:cut_sandstone
+- minecraft:chiseled_sandstone
+- minecraft:smooth_sandstone
+- minecraft:red_sandstone
+- minecraft:cut_red_sandstone
+- minecraft:chiseled_red_sandstone
+- minecraft:smooth_red_sandstone
 
 #ceramics:cistern_connections
 - tconstruct:seared_faucet
 - tconstruct:scorched_faucet
 
 #forge:storage_blocks/copper
-- mekanism:block_copper
 - tconstruct:copper_block
-- immersiveengineering:storage_copper
+- mekanism:block_copper
 - create:copper_block
 - libvulpes:blockcopper
+- immersiveengineering:storage_copper
 - occultism:copper_block
 - thermal:copper_block
 
 #forge:glass_panes/colorless
-- minecraft:glass_pane
 - tconstruct:clear_glass_pane
+- minecraft:glass_pane
 
 #byg:ground_witch_hazel_sapling
 - #forge:dirt
@@ -673,8 +676,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - byg:stripped_palo_verde_wood
 
 #forge:glass/white
-- minecraft:white_stained_glass
 - tconstruct:white_clear_stained_glass
+- minecraft:white_stained_glass
 
 #minecraft:signs
 - #minecraft:standing_signs
@@ -697,8 +700,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - twilightforest:sort_wall_sign
 
 #forge:glass_panes/red
-- minecraft:red_stained_glass_pane
 - tconstruct:red_clear_stained_glass_pane
+- minecraft:red_stained_glass_pane
 
 #minecraft:wither_summon_base_blocks
 - minecraft:soul_sand
@@ -820,8 +823,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - thermal:sapphire_block
 
 #forge:sand/colorless
-- minecraft:sand
 - byg:end_sand
+- minecraft:sand
 
 #forge:ores/jade
 - aoa3:jade_ore
@@ -842,6 +845,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - minecraft:soul_soil
 - tconstruct:soul_glass
 - tconstruct:soul_glass_pane
+- byg:nylium_soul_sand
+- byg:nylium_soul_soil
 - #tombstone:graves
 - #tombstone:grave_marbles
 - tombstone:dark_marble_slab
@@ -850,8 +855,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - tombstone:white_marble_stairs
 - tombstone:dark_marble_wall
 - tombstone:white_marble_wall
-- byg:nylium_soul_sand
-- byg:nylium_soul_soil
 
 #twilightforest:antibuilder_blacklist
 - #tombstone:graves
@@ -884,6 +887,88 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - minecraft:blackstone_wall
 - minecraft:polished_blackstone_brick_wall
 - minecraft:polished_blackstone_wall
+- tconstruct:seared_bricks_wall
+- tconstruct:seared_cobble_wall
+- create:granite_cobblestone_wall
+- create:granite_bricks_wall
+- create:fancy_granite_bricks_wall
+- create:paved_granite_wall
+- create:diorite_cobblestone_wall
+- create:diorite_bricks_wall
+- create:fancy_diorite_bricks_wall
+- create:paved_diorite_wall
+- create:andesite_cobblestone_wall
+- create:andesite_bricks_wall
+- create:fancy_andesite_bricks_wall
+- create:paved_andesite_wall
+- create:limestone_cobblestone_wall
+- create:polished_limestone_wall
+- create:limestone_bricks_wall
+- create:fancy_limestone_bricks_wall
+- create:paved_limestone_wall
+- create:weathered_limestone_cobblestone_wall
+- create:polished_weathered_limestone_wall
+- create:weathered_limestone_bricks_wall
+- create:fancy_weathered_limestone_bricks_wall
+- create:paved_weathered_limestone_wall
+- create:dolomite_cobblestone_wall
+- create:polished_dolomite_wall
+- create:dolomite_bricks_wall
+- create:fancy_dolomite_bricks_wall
+- create:paved_dolomite_wall
+- create:gabbro_cobblestone_wall
+- create:polished_gabbro_wall
+- create:gabbro_bricks_wall
+- create:fancy_gabbro_bricks_wall
+- create:paved_gabbro_wall
+- create:scoria_cobblestone_wall
+- create:polished_scoria_wall
+- create:scoria_bricks_wall
+- create:fancy_scoria_bricks_wall
+- create:paved_scoria_wall
+- create:dark_scoria_cobblestone_wall
+- create:polished_dark_scoria_wall
+- create:dark_scoria_bricks_wall
+- create:fancy_dark_scoria_bricks_wall
+- create:paved_dark_scoria_wall
+- appliedenergistics2:sky_stone_wall
+- appliedenergistics2:smooth_sky_stone_wall
+- appliedenergistics2:sky_stone_brick_wall
+- appliedenergistics2:sky_stone_small_brick_wall
+- appliedenergistics2:fluix_wall
+- appliedenergistics2:quartz_wall
+- appliedenergistics2:chiseled_quartz_wall
+- appliedenergistics2:quartz_pillar_wall
+- iceandfire:dragon_bone_wall
+- byg:dacite_cobblestone_wall
+- byg:dacite_wall
+- byg:dacite_tile_wall
+- byg:dacite_brick_wall
+- byg:mossy_stone_wall
+- byg:rocky_stone_wall
+- byg:scoria_stone_wall
+- byg:scoria_cobblestone_wall
+- byg:scoria_stonebrick_wall
+- byg:soapstone_wall
+- byg:polished_soapstone_wall
+- byg:soapstone_brick_wall
+- byg:soapstone_tile_wall
+- byg:red_rock_wall
+- byg:red_rock_brick_wall
+- byg:mossy_red_rock_brick_wall
+- byg:cracked_red_rock_brick_wall
+- byg:chiseled_red_rock_brick_wall
+- byg:ether_stone_wall
+- byg:purpur_stone_wall
+- byg:cryptic_stone_wall
+- byg:chiseled_therium_wall
+- byg:shiny_chiseled_therium_wall
+- byg:cobbled_ether_stone_wall
+- byg:carved_ether_stone_wall
+- byg:travertine_wall
+- byg:polished_travertine_wall
+- byg:chiseled_travertine_wall
+- byg:chiseled_fungal_imparius_wall
 - aoa3:archaic_tiles_wall
 - aoa3:abyssal_stone_wall
 - aoa3:aromatic_stone_wall
@@ -955,17 +1040,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - aoa3:whitewash_bricks_wall
 - aoa3:white_shyre_bricks_wall
 - aoa3:yellow_shyre_bricks_wall
-- appliedenergistics2:sky_stone_wall
-- appliedenergistics2:smooth_sky_stone_wall
-- appliedenergistics2:sky_stone_brick_wall
-- appliedenergistics2:sky_stone_small_brick_wall
-- appliedenergistics2:fluix_wall
-- appliedenergistics2:quartz_wall
-- appliedenergistics2:chiseled_quartz_wall
-- appliedenergistics2:quartz_pillar_wall
-- iceandfire:dragon_bone_wall
-- tconstruct:seared_bricks_wall
-- tconstruct:seared_cobble_wall
 - botania:corporea_brick_wall
 - botania:dreamwood_wall
 - botania:livingrock_bricks_wall
@@ -988,79 +1062,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - botania:metamorphic_taiga_bricks_wall
 - botania:metamorphic_taiga_cobblestone_wall
 - botania:mossy_livingrock_bricks_wall
-- create:granite_cobblestone_wall
-- create:granite_bricks_wall
-- create:fancy_granite_bricks_wall
-- create:paved_granite_wall
-- create:diorite_cobblestone_wall
-- create:diorite_bricks_wall
-- create:fancy_diorite_bricks_wall
-- create:paved_diorite_wall
-- create:andesite_cobblestone_wall
-- create:andesite_bricks_wall
-- create:fancy_andesite_bricks_wall
-- create:paved_andesite_wall
-- create:limestone_cobblestone_wall
-- create:polished_limestone_wall
-- create:limestone_bricks_wall
-- create:fancy_limestone_bricks_wall
-- create:paved_limestone_wall
-- create:weathered_limestone_cobblestone_wall
-- create:polished_weathered_limestone_wall
-- create:weathered_limestone_bricks_wall
-- create:fancy_weathered_limestone_bricks_wall
-- create:paved_weathered_limestone_wall
-- create:dolomite_cobblestone_wall
-- create:polished_dolomite_wall
-- create:dolomite_bricks_wall
-- create:fancy_dolomite_bricks_wall
-- create:paved_dolomite_wall
-- create:gabbro_cobblestone_wall
-- create:polished_gabbro_wall
-- create:gabbro_bricks_wall
-- create:fancy_gabbro_bricks_wall
-- create:paved_gabbro_wall
-- create:scoria_cobblestone_wall
-- create:polished_scoria_wall
-- create:scoria_bricks_wall
-- create:fancy_scoria_bricks_wall
-- create:paved_scoria_wall
-- create:dark_scoria_cobblestone_wall
-- create:polished_dark_scoria_wall
-- create:dark_scoria_bricks_wall
-- create:fancy_dark_scoria_bricks_wall
-- create:paved_dark_scoria_wall
 - tombstone:dark_marble_wall
 - tombstone:white_marble_wall
-- byg:dacite_cobblestone_wall
-- byg:dacite_wall
-- byg:dacite_tile_wall
-- byg:dacite_brick_wall
-- byg:mossy_stone_wall
-- byg:rocky_stone_wall
-- byg:scoria_stone_wall
-- byg:scoria_cobblestone_wall
-- byg:scoria_stonebrick_wall
-- byg:soapstone_wall
-- byg:polished_soapstone_wall
-- byg:soapstone_brick_wall
-- byg:soapstone_tile_wall
-- byg:red_rock_wall
-- byg:red_rock_brick_wall
-- byg:mossy_red_rock_brick_wall
-- byg:cracked_red_rock_brick_wall
-- byg:chiseled_red_rock_brick_wall
-- byg:ether_stone_wall
-- byg:purpur_stone_wall
-- byg:cryptic_stone_wall
-- byg:chiseled_therium_wall
-- byg:shiny_chiseled_therium_wall
-- byg:cobbled_ether_stone_wall
-- byg:carved_ether_stone_wall
-- byg:travertine_wall
-- byg:polished_travertine_wall
-- byg:chiseled_travertine_wall
-- byg:chiseled_fungal_imparius_wall
 
 #tconstruct:slimy_logs
 - #tconstruct:greenheart_logs
@@ -1086,8 +1089,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - libvulpes:coilcopper
 
 #forge:glass/green
-- minecraft:green_stained_glass
 - tconstruct:green_clear_stained_glass
+- minecraft:green_stained_glass
 
 #forge:storage_blocks/lead
 - mekanism:block_lead
@@ -1161,10 +1164,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - tconstruct:green_clear_stained_glass
 - tconstruct:red_clear_stained_glass
 - tconstruct:black_clear_stained_glass
-- botania:elf_glass
-- botania:mana_glass
-- botania:bifrost
-- botania:bifrost_perm
 - create:tiled_glass
 - create:framed_glass
 - create:horizontal_framed_glass
@@ -1178,6 +1177,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - create:crimson_window
 - create:warped_window
 - create:ornate_iron_window
+- botania:elf_glass
+- botania:mana_glass
+- botania:bifrost
+- botania:bifrost_perm
 - thermal:obsidian_glass
 - thermal:signalum_glass
 - thermal:lumium_glass
@@ -1194,7 +1197,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - byg:end_sand
 
 #forge:end_stones
-- minecraft:end_stone
 - byg:ivis_phylium
 - byg:ether_stone
 - byg:nightshade_phylium
@@ -1207,6 +1209,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - byg:bulbis_phycelium
 - byg:purpur_stone
 - byg:imparius_phylium
+- minecraft:end_stone
 
 #forge:storage_blocks/fluorite
 - mekanism:block_fluorite
@@ -1242,6 +1245,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - immersiveengineering:treated_wood_packaged
 
 #forge:fences/wooden
+- tconstruct:greenheart_fence
+- tconstruct:skyroot_fence
+- tconstruct:bloodshroom_fence
 - minecraft:oak_fence
 - minecraft:spruce_fence
 - minecraft:birch_fence
@@ -1251,11 +1257,19 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - minecraft:crimson_fence
 - minecraft:warped_fence
 - #twilightforest:fences
-- tconstruct:greenheart_fence
-- tconstruct:skyroot_fence
-- tconstruct:bloodshroom_fence
 
 #forge:storage_blocks
+- #forge:storage_blocks/copper
+- #forge:storage_blocks/cobalt
+- #forge:storage_blocks/slimesteel
+- #forge:storage_blocks/silicon_bronze
+- #forge:storage_blocks/rose_gold
+- #forge:storage_blocks/pig_iron
+- #forge:storage_blocks/queens_slime
+- #forge:storage_blocks/manyullyn
+- #forge:storage_blocks/hepatizon
+- #forge:storage_blocks/soulsteel
+- #forge:storage_blocks/knightslime
 - #forge:storage_blocks/bronze
 - #forge:storage_blocks/charcoal
 - #forge:storage_blocks/refined_glowstone
@@ -1267,7 +1281,20 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - #forge:storage_blocks/tin
 - #forge:storage_blocks/lead
 - #forge:storage_blocks/uranium
+- create:copper_block
+- create:zinc_block
+- create:brass_block
 - #forge:storage_blocks/certus_quartz
+- libvulpes:blockcopper
+- libvulpes:blocktin
+- libvulpes:blocksteel
+- libvulpes:blocktitanium
+- libvulpes:blockaluminum
+- libvulpes:blockiridium
+- byg:ametrine_block
+- byg:pendorite_block
+- byg:anthracite_block
+- byg:lignite_block
 - #forge:storage_blocks/coal
 - #forge:storage_blocks/diamond
 - #forge:storage_blocks/emerald
@@ -1283,17 +1310,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - #forge:storage_blocks/ironwood
 - #forge:storage_blocks/knightmetal
 - #forge:storage_blocks/steeleaf
-- #forge:storage_blocks/copper
-- #forge:storage_blocks/cobalt
-- #forge:storage_blocks/slimesteel
-- #forge:storage_blocks/silicon_bronze
-- #forge:storage_blocks/rose_gold
-- #forge:storage_blocks/pig_iron
-- #forge:storage_blocks/queens_slime
-- #forge:storage_blocks/manyullyn
-- #forge:storage_blocks/hepatizon
-- #forge:storage_blocks/soulsteel
-- #forge:storage_blocks/knightslime
 - immersiveengineering:storage_copper
 - immersiveengineering:storage_aluminum
 - immersiveengineering:storage_lead
@@ -1307,19 +1323,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - #forge:storage_blocks/manasteel
 - #forge:storage_blocks/quartz
 - #forge:storage_blocks/terrasteel
-- create:copper_block
-- create:zinc_block
-- create:brass_block
-- libvulpes:blockcopper
-- libvulpes:blocktin
-- libvulpes:blocksteel
-- libvulpes:blocktitanium
-- libvulpes:blockaluminum
-- libvulpes:blockiridium
-- byg:ametrine_block
-- byg:pendorite_block
-- byg:anthracite_block
-- byg:lignite_block
 - #forge:storage_blocks/neptunium
 - #forge:storage_blocks/apatite
 - #forge:storage_blocks/bamboo
@@ -1373,8 +1376,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - #tconstruct:slimy_soil/vanilla
 
 #forge:glass_panes/orange
-- minecraft:orange_stained_glass_pane
 - tconstruct:orange_clear_stained_glass_pane
+- minecraft:orange_stained_glass_pane
 
 #appliedenergistics2:whitelisted/facades
 - minecraft:glass
@@ -1395,8 +1398,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - #forge:dirt
 
 #forge:glass/blue
-- minecraft:blue_stained_glass
 - tconstruct:blue_clear_stained_glass
+- minecraft:blue_stained_glass
 
 #forge:ores/lyon
 - aoa3:lyon_ore
@@ -1461,14 +1464,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - minecraft:spruce_trapdoor
 - minecraft:crimson_trapdoor
 - minecraft:warped_trapdoor
-- twilightforest:twilight_oak_trapdoor
-- twilightforest:canopy_trapdoor
-- twilightforest:mangrove_trapdoor
-- twilightforest:dark_trapdoor
-- twilightforest:time_trapdoor
-- twilightforest:trans_trapdoor
-- twilightforest:mine_trapdoor
-- twilightforest:sort_trapdoor
 - tconstruct:greenheart_trapdoor
 - tconstruct:skyroot_trapdoor
 - tconstruct:bloodshroom_trapdoor
@@ -1501,6 +1496,14 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - byg:bulbis_trapdoor
 - byg:nightshade_trapdoor
 - byg:imparius_trapdoor
+- twilightforest:twilight_oak_trapdoor
+- twilightforest:canopy_trapdoor
+- twilightforest:mangrove_trapdoor
+- twilightforest:dark_trapdoor
+- twilightforest:time_trapdoor
+- twilightforest:trans_trapdoor
+- twilightforest:mine_trapdoor
+- twilightforest:sort_trapdoor
 
 #create:valve_handles
 - create:copper_valve_handle
@@ -1534,8 +1537,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - byg:fungal_imparius_hyphae
 
 #forge:glass/light_blue
-- minecraft:light_blue_stained_glass
 - tconstruct:light_blue_clear_stained_glass
+- minecraft:light_blue_stained_glass
 
 #forge:ores/runium
 - aoa3:runium_ore
@@ -1634,6 +1637,109 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - minecraft:blackstone_stairs
 - minecraft:polished_blackstone_brick_stairs
 - minecraft:polished_blackstone_stairs
+- create:granite_cobblestone_stairs
+- create:granite_bricks_stairs
+- create:fancy_granite_bricks_stairs
+- create:paved_granite_stairs
+- create:diorite_cobblestone_stairs
+- create:diorite_bricks_stairs
+- create:fancy_diorite_bricks_stairs
+- create:paved_diorite_stairs
+- create:andesite_cobblestone_stairs
+- create:andesite_bricks_stairs
+- create:fancy_andesite_bricks_stairs
+- create:paved_andesite_stairs
+- create:limestone_cobblestone_stairs
+- create:polished_limestone_stairs
+- create:limestone_bricks_stairs
+- create:fancy_limestone_bricks_stairs
+- create:paved_limestone_stairs
+- create:weathered_limestone_cobblestone_stairs
+- create:polished_weathered_limestone_stairs
+- create:weathered_limestone_bricks_stairs
+- create:fancy_weathered_limestone_bricks_stairs
+- create:paved_weathered_limestone_stairs
+- create:dolomite_cobblestone_stairs
+- create:polished_dolomite_stairs
+- create:dolomite_bricks_stairs
+- create:fancy_dolomite_bricks_stairs
+- create:paved_dolomite_stairs
+- create:gabbro_cobblestone_stairs
+- create:polished_gabbro_stairs
+- create:gabbro_bricks_stairs
+- create:fancy_gabbro_bricks_stairs
+- create:paved_gabbro_stairs
+- create:scoria_cobblestone_stairs
+- create:polished_scoria_stairs
+- create:scoria_bricks_stairs
+- create:fancy_scoria_bricks_stairs
+- create:paved_scoria_stairs
+- create:dark_scoria_cobblestone_stairs
+- create:polished_dark_scoria_stairs
+- create:dark_scoria_bricks_stairs
+- create:fancy_dark_scoria_bricks_stairs
+- create:paved_dark_scoria_stairs
+- byg:aspen_stairs
+- byg:baobab_stairs
+- byg:blue_enchanted_stairs
+- byg:cherry_stairs
+- byg:cika_stairs
+- byg:cypress_stairs
+- byg:ebony_stairs
+- byg:fir_stairs
+- byg:green_enchanted_stairs
+- byg:holly_stairs
+- byg:jacaranda_stairs
+- byg:mahogany_stairs
+- byg:mangrove_stairs
+- byg:maple_stairs
+- byg:pine_stairs
+- byg:rainbow_eucalyptus_stairs
+- byg:redwood_stairs
+- byg:skyris_stairs
+- byg:willow_stairs
+- byg:witch_hazel_stairs
+- byg:zelkova_stairs
+- byg:dacite_cobblestone_stairs
+- byg:mossy_stone_stairs
+- byg:rocky_stone_stairs
+- byg:scoria_stone_stairs
+- byg:scoria_cobblestone_stairs
+- byg:scoria_stonebrick_stairs
+- byg:soapstone_stairs
+- byg:polished_soapstone_stairs
+- byg:soapstone_brick_stairs
+- byg:soapstone_tile_stairs
+- byg:red_rock_stairs
+- byg:red_rock_brick_stairs
+- byg:mossy_red_rock_brick_stairs
+- byg:cracked_red_rock_brick_stairs
+- byg:chiseled_red_rock_brick_stairs
+- byg:sythian_stairs
+- byg:embur_stairs
+- byg:palm_stairs
+- byg:lament_stairs
+- byg:ether_stairs
+- byg:bulbis_stairs
+- byg:nightshade_stairs
+- byg:ether_stone_stairs
+- byg:carved_ether_stone_stairs
+- byg:cobbled_ether_stone_stairs
+- byg:purpur_stone_stairs
+- byg:imparius_stairs
+- byg:chiseled_fungal_imparius_stairs
+- twilightforest:castle_stairs_brick
+- twilightforest:castle_stairs_worn
+- twilightforest:castle_stairs_cracked
+- twilightforest:castle_stairs_mossy
+- twilightforest:castle_stairs_encased
+- twilightforest:castle_stairs_bold
+- twilightforest:nagastone_stairs_left
+- twilightforest:nagastone_stairs_right
+- twilightforest:nagastone_stairs_mossy_left
+- twilightforest:nagastone_stairs_mossy_right
+- twilightforest:nagastone_stairs_weathered_left
+- twilightforest:nagastone_stairs_weathered_right
 - aoa3:archaic_tiles_stairs
 - aoa3:abyssal_stone_stairs
 - aoa3:achony_stairs
@@ -1719,18 +1825,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - aoa3:whitewash_bricks_stairs
 - aoa3:white_shyre_bricks_stairs
 - aoa3:yellow_shyre_bricks_stairs
-- twilightforest:castle_stairs_brick
-- twilightforest:castle_stairs_worn
-- twilightforest:castle_stairs_cracked
-- twilightforest:castle_stairs_mossy
-- twilightforest:castle_stairs_encased
-- twilightforest:castle_stairs_bold
-- twilightforest:nagastone_stairs_left
-- twilightforest:nagastone_stairs_right
-- twilightforest:nagastone_stairs_mossy_left
-- twilightforest:nagastone_stairs_mossy_right
-- twilightforest:nagastone_stairs_weathered_left
-- twilightforest:nagastone_stairs_weathered_right
 - botania:black_pavement_stairs
 - botania:blaze_quartz_stairs
 - botania:blue_pavement_stairs
@@ -1779,99 +1873,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - botania:sunny_quartz_stairs
 - botania:white_pavement_stairs
 - botania:yellow_pavement_stairs
-- create:granite_cobblestone_stairs
-- create:granite_bricks_stairs
-- create:fancy_granite_bricks_stairs
-- create:paved_granite_stairs
-- create:diorite_cobblestone_stairs
-- create:diorite_bricks_stairs
-- create:fancy_diorite_bricks_stairs
-- create:paved_diorite_stairs
-- create:andesite_cobblestone_stairs
-- create:andesite_bricks_stairs
-- create:fancy_andesite_bricks_stairs
-- create:paved_andesite_stairs
-- create:limestone_cobblestone_stairs
-- create:polished_limestone_stairs
-- create:limestone_bricks_stairs
-- create:fancy_limestone_bricks_stairs
-- create:paved_limestone_stairs
-- create:weathered_limestone_cobblestone_stairs
-- create:polished_weathered_limestone_stairs
-- create:weathered_limestone_bricks_stairs
-- create:fancy_weathered_limestone_bricks_stairs
-- create:paved_weathered_limestone_stairs
-- create:dolomite_cobblestone_stairs
-- create:polished_dolomite_stairs
-- create:dolomite_bricks_stairs
-- create:fancy_dolomite_bricks_stairs
-- create:paved_dolomite_stairs
-- create:gabbro_cobblestone_stairs
-- create:polished_gabbro_stairs
-- create:gabbro_bricks_stairs
-- create:fancy_gabbro_bricks_stairs
-- create:paved_gabbro_stairs
-- create:scoria_cobblestone_stairs
-- create:polished_scoria_stairs
-- create:scoria_bricks_stairs
-- create:fancy_scoria_bricks_stairs
-- create:paved_scoria_stairs
-- create:dark_scoria_cobblestone_stairs
-- create:polished_dark_scoria_stairs
-- create:dark_scoria_bricks_stairs
-- create:fancy_dark_scoria_bricks_stairs
-- create:paved_dark_scoria_stairs
 - tombstone:dark_marble_stairs
 - tombstone:white_marble_stairs
-- byg:aspen_stairs
-- byg:baobab_stairs
-- byg:blue_enchanted_stairs
-- byg:cherry_stairs
-- byg:cika_stairs
-- byg:cypress_stairs
-- byg:ebony_stairs
-- byg:fir_stairs
-- byg:green_enchanted_stairs
-- byg:holly_stairs
-- byg:jacaranda_stairs
-- byg:mahogany_stairs
-- byg:mangrove_stairs
-- byg:maple_stairs
-- byg:pine_stairs
-- byg:rainbow_eucalyptus_stairs
-- byg:redwood_stairs
-- byg:skyris_stairs
-- byg:willow_stairs
-- byg:witch_hazel_stairs
-- byg:zelkova_stairs
-- byg:dacite_cobblestone_stairs
-- byg:mossy_stone_stairs
-- byg:rocky_stone_stairs
-- byg:scoria_stone_stairs
-- byg:scoria_cobblestone_stairs
-- byg:scoria_stonebrick_stairs
-- byg:soapstone_stairs
-- byg:polished_soapstone_stairs
-- byg:soapstone_brick_stairs
-- byg:soapstone_tile_stairs
-- byg:red_rock_stairs
-- byg:red_rock_brick_stairs
-- byg:mossy_red_rock_brick_stairs
-- byg:cracked_red_rock_brick_stairs
-- byg:chiseled_red_rock_brick_stairs
-- byg:sythian_stairs
-- byg:embur_stairs
-- byg:palm_stairs
-- byg:lament_stairs
-- byg:ether_stairs
-- byg:bulbis_stairs
-- byg:nightshade_stairs
-- byg:ether_stone_stairs
-- byg:carved_ether_stone_stairs
-- byg:cobbled_ether_stone_stairs
-- byg:purpur_stone_stairs
-- byg:imparius_stairs
-- byg:chiseled_fungal_imparius_stairs
 
 #twilightforest:ore_magnet/minecraft/stone
 - minecraft:gold_ore
@@ -1888,6 +1891,40 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - #minecraft:logs_that_burn
 - #minecraft:crimson_stems
 - #minecraft:warped_stems
+- #tconstruct:slimy_logs
+- #byg:aspen_logs
+- #byg:baobab_logs
+- #byg:blue_enchanted_logs
+- #byg:cherry_logs
+- #byg:cika_logs
+- #byg:cypress_logs
+- #byg:ebony_logs
+- #byg:fir_logs
+- #byg:green_enchanted_logs
+- #byg:holly_logs
+- #byg:jacaranda_logs
+- #byg:mahogany_logs
+- #byg:mangrove_logs
+- #byg:maple_logs
+- #byg:palo_verde_logs
+- #byg:pine_logs
+- #byg:rainbow_eucalyptus_logs
+- #byg:redwood_logs
+- #byg:skyris_logs
+- #byg:willow_logs
+- #byg:witch_hazel_logs
+- #byg:zelkova_logs
+- #byg:sythian_stems
+- #byg:embur_pedus
+- #byg:palm_logs
+- #byg:lament_logs
+- #byg:bulbis_stems
+- #byg:ether_logs
+- #byg:nightshade_logs
+- #byg:withering_oak_logs
+- byg:imbued_nightshade_log
+- #byg:imparius_stems
+- #twilightforest:logs
 - aoa3:achony_log
 - aoa3:blood_log
 - aoa3:churry_log
@@ -1964,42 +2001,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - aoa3:stripped_shyre_wood
 - aoa3:stripped_stranglewood
 - aoa3:stripped_toxic_wood
-- #twilightforest:logs
-- #tconstruct:slimy_logs
 - occultism:otherworld_log
 - occultism:otherworld_log_natural
-- #byg:aspen_logs
-- #byg:baobab_logs
-- #byg:blue_enchanted_logs
-- #byg:cherry_logs
-- #byg:cika_logs
-- #byg:cypress_logs
-- #byg:ebony_logs
-- #byg:fir_logs
-- #byg:green_enchanted_logs
-- #byg:holly_logs
-- #byg:jacaranda_logs
-- #byg:mahogany_logs
-- #byg:mangrove_logs
-- #byg:maple_logs
-- #byg:palo_verde_logs
-- #byg:pine_logs
-- #byg:rainbow_eucalyptus_logs
-- #byg:redwood_logs
-- #byg:skyris_logs
-- #byg:willow_logs
-- #byg:witch_hazel_logs
-- #byg:zelkova_logs
-- #byg:sythian_stems
-- #byg:embur_pedus
-- #byg:palm_logs
-- #byg:lament_logs
-- #byg:bulbis_stems
-- #byg:ether_logs
-- #byg:nightshade_logs
-- #byg:withering_oak_logs
-- byg:imbued_nightshade_log
-- #byg:imparius_stems
 
 #forge:ores/cinnabar
 - thermal:cinnabar_ore
@@ -2027,6 +2030,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - immersiveengineering:slab_treated_wood_vertical
 - immersiveengineering:slab_treated_wood_packaged
 
+#advancedrocketry:warpcore
+- minecraft:gold_block
+
 #mekanism:miner_blacklist
 
 #minecraft:valid_spawn
@@ -2046,7 +2052,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - minecraft:podzol
 - minecraft:crimson_nylium
 - minecraft:warped_nylium
-- aoa3:fungal_grass
 - byg:glowcelium_block
 - byg:overgrown_netherrack
 - byg:embur_nylium
@@ -2058,6 +2063,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - byg:shulkren_phylium
 - byg:bulbis_phycelium
 - byg:imparius_phylium
+- aoa3:fungal_grass
 
 #minecraft:wooden_doors
 - minecraft:oak_door
@@ -2068,14 +2074,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - minecraft:dark_oak_door
 - minecraft:crimson_door
 - minecraft:warped_door
-- twilightforest:twilight_oak_door
-- twilightforest:canopy_door
-- twilightforest:mangrove_door
-- twilightforest:dark_door
-- twilightforest:time_door
-- twilightforest:trans_door
-- twilightforest:mine_door
-- twilightforest:sort_door
 - tconstruct:greenheart_door
 - tconstruct:skyroot_door
 - tconstruct:bloodshroom_door
@@ -2108,6 +2106,14 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - byg:bulbis_door
 - byg:nightshade_door
 - byg:imparius_door
+- twilightforest:twilight_oak_door
+- twilightforest:canopy_door
+- twilightforest:mangrove_door
+- twilightforest:dark_door
+- twilightforest:time_door
+- twilightforest:trans_door
+- twilightforest:mine_door
+- twilightforest:sort_door
 
 #forge:ores/certus_quartz
 - appliedenergistics2:quartz_ore
@@ -2123,8 +2129,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - tconstruct:nahuatl
 
 #forge:glass/purple
-- minecraft:purple_stained_glass
 - tconstruct:purple_clear_stained_glass
+- minecraft:purple_stained_glass
 
 #forge:storage_blocks/shyrestone
 - aoa3:shyrestone_block
@@ -2189,6 +2195,31 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - minecraft:diamond_block
 - minecraft:gold_block
 - minecraft:iron_block
+- #forge:storage_blocks/cobalt
+- #forge:storage_blocks/queens_slime
+- #forge:storage_blocks/manyullyn
+- #forge:storage_blocks/hepatizon
+- #forge:storage_blocks/soulsteel
+- mekanism:block_osmium
+- mekanism:block_copper
+- mekanism:block_tin
+- mekanism:block_lead
+- mekanism:block_uranium
+- mekanism:block_bronze
+- mekanism:block_refined_obsidian
+- mekanism:block_refined_glowstone
+- mekanism:block_steel
+- create:copper_block
+- create:zinc_block
+- create:brass_block
+- byg:pendorite_block
+- byg:ametrine_block
+- #forge:storage_blocks/arctic_fur
+- #forge:storage_blocks/carminite
+- #forge:storage_blocks/fiery
+- #forge:storage_blocks/ironwood
+- #forge:storage_blocks/knightmetal
+- #forge:storage_blocks/steeleaf
 - aoa3:amethyst_block
 - aoa3:baronyte_block
 - aoa3:blazium_block
@@ -2211,36 +2242,11 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - aoa3:shyrestone_block
 - aoa3:skeletal_ingot_block
 - aoa3:varsium_block
-- mekanism:block_osmium
-- mekanism:block_copper
-- mekanism:block_tin
-- mekanism:block_lead
-- mekanism:block_uranium
-- mekanism:block_bronze
-- mekanism:block_refined_obsidian
-- mekanism:block_refined_glowstone
-- mekanism:block_steel
-- #forge:storage_blocks/arctic_fur
-- #forge:storage_blocks/carminite
-- #forge:storage_blocks/fiery
-- #forge:storage_blocks/ironwood
-- #forge:storage_blocks/knightmetal
-- #forge:storage_blocks/steeleaf
-- #forge:storage_blocks/cobalt
-- #forge:storage_blocks/queens_slime
-- #forge:storage_blocks/manyullyn
-- #forge:storage_blocks/hepatizon
-- #forge:storage_blocks/soulsteel
 - botania:manasteel_block
 - botania:terrasteel_block
 - botania:elementium_block
 - botania:mana_diamond_block
 - botania:dragonstone_block
-- create:copper_block
-- create:zinc_block
-- create:brass_block
-- byg:pendorite_block
-- byg:ametrine_block
 
 #tconstruct:scorched_tanks
 - tconstruct:scorched_fuel_tank
@@ -2271,14 +2277,14 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 #appliedenergistics2:spatial/blacklist
 
 #forge:sand
-- #forge:sand/colorless
-- #forge:sand/red
 - byg:white_sand
 - byg:black_sand
 - byg:blue_sand
 - byg:pink_sand
 - byg:purple_sand
 - byg:end_sand
+- #forge:sand/colorless
+- #forge:sand/red
 
 #minecraft:wall_corals
 - minecraft:tube_coral_wall_fan
@@ -2312,6 +2318,18 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - thermal:tar_block
 
 #forge:grass
+- byg:short_grass
+- byg:prairie_grass
+- byg:ether_grass
+- byg:tall_ether_grass
+- byg:scorched_grass
+- byg:beach_grass
+- byg:short_beach_grass
+- byg:wilted_grass
+- byg:weed_grass
+- byg:winter_grass
+- byg:tall_prairie_grass
+- byg:short_grass
 - aoa3:abyssal_grass
 - aoa3:aromatic_grass
 - aoa3:bright_grass
@@ -2332,18 +2350,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - aoa3:runic_grass
 - aoa3:weightless_grass
 - minecraft:grass_block
-- byg:short_grass
-- byg:prairie_grass
-- byg:ether_grass
-- byg:tall_ether_grass
-- byg:scorched_grass
-- byg:beach_grass
-- byg:short_beach_grass
-- byg:wilted_grass
-- byg:weed_grass
-- byg:winter_grass
-- byg:tall_prairie_grass
-- byg:short_grass
+
+#advancedrocketry:casingcentrifuge
+- libvulpes:blockaluminum
 
 #byg:ground_yellow_birch_sapling
 - #forge:dirt
@@ -2424,13 +2433,14 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - #forge:dirt
 
 #forge:glass/black
-- minecraft:black_stained_glass
 - tconstruct:black_clear_stained_glass
+- minecraft:black_stained_glass
 
 #minecraft:portals
 - minecraft:nether_portal
 - minecraft:end_portal
 - minecraft:end_gateway
+- twilightforest:twilight_portal
 - aoa3:abyss_portal
 - aoa3:barathos_portal
 - aoa3:lborean_portal
@@ -2454,7 +2464,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - aoa3:shyrelands_portal
 - aoa3:vox_ponds_portal
 - aoa3:nowhere_activity_portal
-- twilightforest:twilight_portal
+
+#forge:storage_blocks/titaniumiridium
+- advancedrocketry:blocktitaniumiridium
 
 #byg:cherry_logs
 - byg:cherry_log
@@ -2466,16 +2478,16 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - minecraft:nether_brick_fence
 
 #forge:glass/lime
-- minecraft:lime_stained_glass
 - tconstruct:lime_clear_stained_glass
+- minecraft:lime_stained_glass
 
 #forge:chests/wooden
 - minecraft:chest
 - minecraft:trapped_chest
 
 #forge:storage_blocks/aluminum
-- immersiveengineering:storage_aluminum
 - libvulpes:blockaluminum
+- immersiveengineering:storage_aluminum
 
 #immersiveengineering:scaffoldings/aluminum
 - immersiveengineering:alu_scaffolding_standard
@@ -2525,28 +2537,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - minecraft:dark_oak_stairs
 - minecraft:crimson_stairs
 - minecraft:warped_stairs
-- aoa3:achony_stairs
-- aoa3:bloodwood_stairs
-- aoa3:churry_stairs
-- aoa3:creep_stairs
-- aoa3:dawnwood_stairs
-- aoa3:hauntedwood_stairs
-- aoa3:irowood_stairs
-- aoa3:lucalus_stairs
-- aoa3:lunide_stairs
-- aoa3:runic_stairs
-- aoa3:shadow_stairs
-- aoa3:shyre_stairs
-- aoa3:stranglewood_stairs
-- aoa3:toxicwood_stairs
-- twilightforest:twilight_oak_stairs
-- twilightforest:canopy_stairs
-- twilightforest:mangrove_stairs
-- twilightforest:dark_stairs
-- twilightforest:time_stairs
-- twilightforest:trans_stairs
-- twilightforest:mine_stairs
-- twilightforest:sort_stairs
 - tconstruct:greenheart_planks_stairs
 - tconstruct:skyroot_planks_stairs
 - tconstruct:bloodshroom_planks_stairs
@@ -2579,6 +2569,28 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - byg:bulbis_stairs
 - byg:nightshade_stairs
 - byg:imparius_stairs
+- twilightforest:twilight_oak_stairs
+- twilightforest:canopy_stairs
+- twilightforest:mangrove_stairs
+- twilightforest:dark_stairs
+- twilightforest:time_stairs
+- twilightforest:trans_stairs
+- twilightforest:mine_stairs
+- twilightforest:sort_stairs
+- aoa3:achony_stairs
+- aoa3:bloodwood_stairs
+- aoa3:churry_stairs
+- aoa3:creep_stairs
+- aoa3:dawnwood_stairs
+- aoa3:hauntedwood_stairs
+- aoa3:irowood_stairs
+- aoa3:lucalus_stairs
+- aoa3:lunide_stairs
+- aoa3:runic_stairs
+- aoa3:shadow_stairs
+- aoa3:shyre_stairs
+- aoa3:stranglewood_stairs
+- aoa3:toxicwood_stairs
 
 #thermal:glass/hardened
 - thermal:obsidian_glass
@@ -2629,28 +2641,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - minecraft:dark_oak_button
 - minecraft:crimson_button
 - minecraft:warped_button
-- aoa3:achony_button
-- aoa3:bloodwood_button
-- aoa3:churry_button
-- aoa3:creep_button
-- aoa3:dawnwood_button
-- aoa3:hauntedwood_button
-- aoa3:irowood_button
-- aoa3:lucalus_button
-- aoa3:lunide_button
-- aoa3:runic_button
-- aoa3:shadow_button
-- aoa3:shyre_button
-- aoa3:stranglewood_button
-- aoa3:toxicwood_button
-- twilightforest:twilight_oak_button
-- twilightforest:canopy_button
-- twilightforest:mangrove_button
-- twilightforest:dark_button
-- twilightforest:time_button
-- twilightforest:trans_button
-- twilightforest:mine_button
-- twilightforest:sort_button
 - tconstruct:greenheart_button
 - tconstruct:skyroot_button
 - tconstruct:bloodshroom_button
@@ -2683,6 +2673,28 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - byg:bulbis_button
 - byg:nightshade_button
 - byg:imparius_button
+- twilightforest:twilight_oak_button
+- twilightforest:canopy_button
+- twilightforest:mangrove_button
+- twilightforest:dark_button
+- twilightforest:time_button
+- twilightforest:trans_button
+- twilightforest:mine_button
+- twilightforest:sort_button
+- aoa3:achony_button
+- aoa3:bloodwood_button
+- aoa3:churry_button
+- aoa3:creep_button
+- aoa3:dawnwood_button
+- aoa3:hauntedwood_button
+- aoa3:irowood_button
+- aoa3:lucalus_button
+- aoa3:lunide_button
+- aoa3:runic_button
+- aoa3:shadow_button
+- aoa3:shyre_button
+- aoa3:stranglewood_button
+- aoa3:toxicwood_button
 
 #byg:ground_iris
 - #forge:dirt
@@ -2722,8 +2734,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - botania:sunny_quartz
 
 #forge:glass/orange
-- minecraft:orange_stained_glass
 - tconstruct:orange_clear_stained_glass
+- minecraft:orange_stained_glass
 
 #byg:ground_peach_leather_flower
 - #forge:dirt
@@ -2774,6 +2786,99 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - minecraft:blackstone_slab
 - minecraft:polished_blackstone_brick_slab
 - minecraft:polished_blackstone_slab
+- create:granite_cobblestone_slab
+- create:granite_bricks_slab
+- create:fancy_granite_bricks_slab
+- create:paved_granite_slab
+- create:diorite_cobblestone_slab
+- create:diorite_bricks_slab
+- create:fancy_diorite_bricks_slab
+- create:paved_diorite_slab
+- create:andesite_cobblestone_slab
+- create:andesite_bricks_slab
+- create:fancy_andesite_bricks_slab
+- create:paved_andesite_slab
+- create:limestone_cobblestone_slab
+- create:polished_limestone_slab
+- create:limestone_bricks_slab
+- create:fancy_limestone_bricks_slab
+- create:paved_limestone_slab
+- create:weathered_limestone_cobblestone_slab
+- create:polished_weathered_limestone_slab
+- create:weathered_limestone_bricks_slab
+- create:fancy_weathered_limestone_bricks_slab
+- create:paved_weathered_limestone_slab
+- create:dolomite_cobblestone_slab
+- create:polished_dolomite_slab
+- create:dolomite_bricks_slab
+- create:fancy_dolomite_bricks_slab
+- create:paved_dolomite_slab
+- create:gabbro_cobblestone_slab
+- create:polished_gabbro_slab
+- create:gabbro_bricks_slab
+- create:fancy_gabbro_bricks_slab
+- create:paved_gabbro_slab
+- create:scoria_cobblestone_slab
+- create:polished_scoria_slab
+- create:scoria_bricks_slab
+- create:fancy_scoria_bricks_slab
+- create:paved_scoria_slab
+- create:dark_scoria_cobblestone_slab
+- create:polished_dark_scoria_slab
+- create:dark_scoria_bricks_slab
+- create:fancy_dark_scoria_bricks_slab
+- create:paved_dark_scoria_slab
+- iceandfire:dread_stone_slab
+- byg:aspen_slab
+- byg:baobab_slab
+- byg:blue_enchanted_slab
+- byg:cherry_slab
+- byg:cika_slab
+- byg:cypress_slab
+- byg:ebony_slab
+- byg:fir_slab
+- byg:green_enchanted_slab
+- byg:holly_slab
+- byg:jacaranda_slab
+- byg:mahogany_slab
+- byg:mangrove_slab
+- byg:maple_slab
+- byg:pine_slab
+- byg:rainbow_eucalyptus_slab
+- byg:redwood_slab
+- byg:skyris_slab
+- byg:willow_slab
+- byg:witch_hazel_slab
+- byg:zelkova_slab
+- byg:dacite_cobblestone_slab
+- byg:mossy_stone_slab
+- byg:rocky_stone_slab
+- byg:scoria_stone_slab
+- byg:scoria_cobblestone_slab
+- byg:scoria_stonebrick_slab
+- byg:soapstone_slab
+- byg:polished_soapstone_slab
+- byg:soapstone_brick_slab
+- byg:soapstone_tile_slab
+- byg:red_rock_slab
+- byg:red_rock_brick_slab
+- byg:mossy_red_rock_brick_slab
+- byg:cracked_red_rock_brick_slab
+- byg:chiseled_red_rock_brick_slab
+- byg:sythian_slab
+- byg:embur_slab
+- byg:palm_slab
+- byg:lament_slab
+- byg:ether_slab
+- byg:bulbis_slab
+- byg:nightshade_slab
+- byg:ether_stone_slab
+- byg:cobbled_ether_stone_slab
+- byg:carved_ether_stone_slab
+- byg:purpur_stone_slab
+- byg:imparius_slab
+- byg:chiseled_fungal_imparius_slab
+- twilightforest:aurora_slab
 - aoa3:archaic_tiles_slab
 - aoa3:abyssal_stone_slab
 - aoa3:achony_slab
@@ -2859,8 +2964,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - aoa3:whitewash_bricks_slab
 - aoa3:white_shyre_bricks_slab
 - aoa3:yellow_shyre_bricks_slab
-- iceandfire:dread_stone_slab
-- twilightforest:aurora_slab
 - botania:black_pavement_slab
 - botania:blaze_quartz_slab
 - botania:blue_pavement_slab
@@ -2909,99 +3012,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - botania:sunny_quartz_slab
 - botania:white_pavement_slab
 - botania:yellow_pavement_slab
-- create:granite_cobblestone_slab
-- create:granite_bricks_slab
-- create:fancy_granite_bricks_slab
-- create:paved_granite_slab
-- create:diorite_cobblestone_slab
-- create:diorite_bricks_slab
-- create:fancy_diorite_bricks_slab
-- create:paved_diorite_slab
-- create:andesite_cobblestone_slab
-- create:andesite_bricks_slab
-- create:fancy_andesite_bricks_slab
-- create:paved_andesite_slab
-- create:limestone_cobblestone_slab
-- create:polished_limestone_slab
-- create:limestone_bricks_slab
-- create:fancy_limestone_bricks_slab
-- create:paved_limestone_slab
-- create:weathered_limestone_cobblestone_slab
-- create:polished_weathered_limestone_slab
-- create:weathered_limestone_bricks_slab
-- create:fancy_weathered_limestone_bricks_slab
-- create:paved_weathered_limestone_slab
-- create:dolomite_cobblestone_slab
-- create:polished_dolomite_slab
-- create:dolomite_bricks_slab
-- create:fancy_dolomite_bricks_slab
-- create:paved_dolomite_slab
-- create:gabbro_cobblestone_slab
-- create:polished_gabbro_slab
-- create:gabbro_bricks_slab
-- create:fancy_gabbro_bricks_slab
-- create:paved_gabbro_slab
-- create:scoria_cobblestone_slab
-- create:polished_scoria_slab
-- create:scoria_bricks_slab
-- create:fancy_scoria_bricks_slab
-- create:paved_scoria_slab
-- create:dark_scoria_cobblestone_slab
-- create:polished_dark_scoria_slab
-- create:dark_scoria_bricks_slab
-- create:fancy_dark_scoria_bricks_slab
-- create:paved_dark_scoria_slab
 - tombstone:dark_marble_slab
 - tombstone:white_marble_slab
-- byg:aspen_slab
-- byg:baobab_slab
-- byg:blue_enchanted_slab
-- byg:cherry_slab
-- byg:cika_slab
-- byg:cypress_slab
-- byg:ebony_slab
-- byg:fir_slab
-- byg:green_enchanted_slab
-- byg:holly_slab
-- byg:jacaranda_slab
-- byg:mahogany_slab
-- byg:mangrove_slab
-- byg:maple_slab
-- byg:pine_slab
-- byg:rainbow_eucalyptus_slab
-- byg:redwood_slab
-- byg:skyris_slab
-- byg:willow_slab
-- byg:witch_hazel_slab
-- byg:zelkova_slab
-- byg:dacite_cobblestone_slab
-- byg:mossy_stone_slab
-- byg:rocky_stone_slab
-- byg:scoria_stone_slab
-- byg:scoria_cobblestone_slab
-- byg:scoria_stonebrick_slab
-- byg:soapstone_slab
-- byg:polished_soapstone_slab
-- byg:soapstone_brick_slab
-- byg:soapstone_tile_slab
-- byg:red_rock_slab
-- byg:red_rock_brick_slab
-- byg:mossy_red_rock_brick_slab
-- byg:cracked_red_rock_brick_slab
-- byg:chiseled_red_rock_brick_slab
-- byg:sythian_slab
-- byg:embur_slab
-- byg:palm_slab
-- byg:lament_slab
-- byg:ether_slab
-- byg:bulbis_slab
-- byg:nightshade_slab
-- byg:ether_stone_slab
-- byg:cobbled_ether_stone_slab
-- byg:carved_ether_stone_slab
-- byg:purpur_stone_slab
-- byg:imparius_slab
-- byg:chiseled_fungal_imparius_slab
 
 #forge:ores/elecanium
 - aoa3:elecanium_ore
@@ -3015,14 +3027,14 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - minecraft:trapped_chest
 - #minecraft:shulker_boxes
 - #minecraft:gold_ores
-- mekanism:block_refined_glowstone
-- mekanism:personal_chest
-- iceandfire:gold_pile
 - tconstruct:cast_chest
 - tconstruct:piglin_head
 - tconstruct:piglin_brute_head
 - tconstruct:piglin_wall_head
 - tconstruct:piglin_brute_wall_head
+- mekanism:block_refined_glowstone
+- mekanism:personal_chest
+- iceandfire:gold_pile
 - byg:sythian_stalk_block
 
 #forge:ores/emerald
@@ -3074,20 +3086,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - #minecraft:wooden_buttons
 - minecraft:stone_button
 - minecraft:polished_blackstone_button
-- aoa3:achony_button
-- aoa3:bloodwood_button
-- aoa3:churry_button
-- aoa3:creep_button
-- aoa3:dawnwood_button
-- aoa3:hauntedwood_button
-- aoa3:irowood_button
-- aoa3:lucalus_button
-- aoa3:lunide_button
-- aoa3:runic_button
-- aoa3:shadow_button
-- aoa3:shyre_button
-- aoa3:stranglewood_button
-- aoa3:toxicwood_button
 - byg:aspen_button
 - byg:baobab_button
 - byg:blue_enchanted_button
@@ -3117,6 +3115,20 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - byg:bulbis_button
 - byg:nightshade_button
 - byg:imparius_button
+- aoa3:achony_button
+- aoa3:bloodwood_button
+- aoa3:churry_button
+- aoa3:creep_button
+- aoa3:dawnwood_button
+- aoa3:hauntedwood_button
+- aoa3:irowood_button
+- aoa3:lucalus_button
+- aoa3:lunide_button
+- aoa3:runic_button
+- aoa3:shadow_button
+- aoa3:shyre_button
+- aoa3:stranglewood_button
+- aoa3:toxicwood_button
 
 #byg:ground_prickly_pear_cactus
 - #forge:sand
@@ -3135,10 +3147,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - minecraft:powered_rail
 - minecraft:detector_rail
 - minecraft:activator_rail
-- botania:ghost_rail
 - create:cart_assembler
 - create:reinforced_rail
 - create:controller_rail
+- botania:ghost_rail
 - thermal:crossover_rail
 - thermal:prismarine_rail
 - thermal:prismarine_crossover_rail
@@ -3181,9 +3193,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 
 #minecraft:strider_warm_blocks
 - minecraft:lava
-- twilightforest:fiery_block
 - tconstruct:magma_fluid
 - tconstruct:blazing_blood_fluid
+- twilightforest:fiery_block
 
 #forge:storage_blocks/clay
 - minecraft:clay
@@ -3218,28 +3230,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - minecraft:dark_oak_pressure_plate
 - minecraft:crimson_pressure_plate
 - minecraft:warped_pressure_plate
-- aoa3:achony_pressure_plate
-- aoa3:bloodwood_pressure_plate
-- aoa3:churry_pressure_plate
-- aoa3:creep_pressure_plate
-- aoa3:dawnwood_pressure_plate
-- aoa3:hauntedwood_pressure_plate
-- aoa3:irowood_pressure_plate
-- aoa3:lucalus_pressure_plate
-- aoa3:lunide_pressure_plate
-- aoa3:runic_pressure_plate
-- aoa3:shadow_pressure_plate
-- aoa3:shyre_pressure_plate
-- aoa3:stranglewood_pressure_plate
-- aoa3:toxicwood_pressure_plate
-- twilightforest:twilight_oak_plate
-- twilightforest:canopy_plate
-- twilightforest:mangrove_plate
-- twilightforest:dark_plate
-- twilightforest:time_plate
-- twilightforest:trans_plate
-- twilightforest:mine_plate
-- twilightforest:sort_plate
 - tconstruct:greenheart_pressure_plate
 - tconstruct:skyroot_pressure_plate
 - tconstruct:bloodshroom_pressure_plate
@@ -3272,6 +3262,28 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - byg:bulbis_pressure_plate
 - byg:nightshade_pressure_plate
 - byg:imparius_pressure_plate
+- twilightforest:twilight_oak_plate
+- twilightforest:canopy_plate
+- twilightforest:mangrove_plate
+- twilightforest:dark_plate
+- twilightforest:time_plate
+- twilightforest:trans_plate
+- twilightforest:mine_plate
+- twilightforest:sort_plate
+- aoa3:achony_pressure_plate
+- aoa3:bloodwood_pressure_plate
+- aoa3:churry_pressure_plate
+- aoa3:creep_pressure_plate
+- aoa3:dawnwood_pressure_plate
+- aoa3:hauntedwood_pressure_plate
+- aoa3:irowood_pressure_plate
+- aoa3:lucalus_pressure_plate
+- aoa3:lunide_pressure_plate
+- aoa3:runic_pressure_plate
+- aoa3:shadow_pressure_plate
+- aoa3:shyre_pressure_plate
+- aoa3:stranglewood_pressure_plate
+- aoa3:toxicwood_pressure_plate
 
 #create:brittle
 - create:nozzle
@@ -3310,13 +3322,13 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - minecraft:lilac
 - minecraft:peony
 - minecraft:rose_bush
-- #botania:double_mystical_flowers
 - byg:foxglove
 - byg:delphinium
 - byg:japanese_orchid
 - byg:azalea
 - byg:tall_allium
 - byg:tall_pink_allium
+- #botania:double_mystical_flowers
 
 #byg:sythian_stems
 - byg:sythian_stem
@@ -3382,8 +3394,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - immersiveengineering:sheetmetal_silver
 
 #forge:glass_panes/pink
-- minecraft:pink_stained_glass_pane
 - tconstruct:pink_clear_stained_glass_pane
+- minecraft:pink_stained_glass_pane
 
 #tconstruct:smeltery
 - #tconstruct:smeltery/wall
@@ -3394,13 +3406,13 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - #forge:dirt
 
 #forge:netherrack
-- minecraft:netherrack
 - byg:overgrown_netherrack
 - byg:overgrown_crimson_blackstone
 - byg:blue_netherrack
 - byg:brimstone
 - byg:embur_nylium
 - byg:sythian_nylium
+- minecraft:netherrack
 
 #forge:wool/cyan
 - minecraft:cyan_wool
@@ -3456,6 +3468,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - immersiveengineering:sheetmetal_colored_red
 - immersiveengineering:sheetmetal_colored_black
 
+#advancedrocketry:warpcorerim
+- libvulpes:blockaluminum
+
 #byg:ground_fir_sapling
 - #forge:dirt
 
@@ -3482,8 +3497,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - minecraft:gravel
 
 #forge:glass_panes/cyan
-- minecraft:cyan_stained_glass_pane
 - tconstruct:cyan_clear_stained_glass_pane
+- minecraft:cyan_stained_glass_pane
 
 #minecraft:wool
 - minecraft:white_wool
@@ -3504,12 +3519,12 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - minecraft:black_wool
 
 #forge:glass/colorless
-- minecraft:glass
 - tconstruct:clear_glass
 - create:tiled_glass
 - create:framed_glass
 - create:horizontal_framed_glass
 - create:vertical_framed_glass
+- minecraft:glass
 
 #forge:ores/shyrestone
 - aoa3:shyrestone_ore
@@ -3517,8 +3532,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 #forge:rubberwood_logs
 
 #forge:glass_panes/light_blue
-- minecraft:light_blue_stained_glass_pane
 - tconstruct:light_blue_clear_stained_glass_pane
+- minecraft:light_blue_stained_glass_pane
 
 #minecraft:beehives
 - minecraft:bee_nest
@@ -3580,22 +3595,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - byg:stripped_zelkova_wood
 
 #forge:stained_glass
-- minecraft:white_stained_glass
-- minecraft:orange_stained_glass
-- minecraft:magenta_stained_glass
-- minecraft:light_blue_stained_glass
-- minecraft:yellow_stained_glass
-- minecraft:lime_stained_glass
-- minecraft:pink_stained_glass
-- minecraft:gray_stained_glass
-- minecraft:light_gray_stained_glass
-- minecraft:cyan_stained_glass
-- minecraft:purple_stained_glass
-- minecraft:blue_stained_glass
-- minecraft:brown_stained_glass
-- minecraft:green_stained_glass
-- minecraft:red_stained_glass
-- minecraft:black_stained_glass
 - tconstruct:white_clear_stained_glass
 - tconstruct:orange_clear_stained_glass
 - tconstruct:magenta_clear_stained_glass
@@ -3612,6 +3611,22 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - tconstruct:green_clear_stained_glass
 - tconstruct:red_clear_stained_glass
 - tconstruct:black_clear_stained_glass
+- minecraft:white_stained_glass
+- minecraft:orange_stained_glass
+- minecraft:magenta_stained_glass
+- minecraft:light_blue_stained_glass
+- minecraft:yellow_stained_glass
+- minecraft:lime_stained_glass
+- minecraft:pink_stained_glass
+- minecraft:gray_stained_glass
+- minecraft:light_gray_stained_glass
+- minecraft:cyan_stained_glass
+- minecraft:purple_stained_glass
+- minecraft:blue_stained_glass
+- minecraft:brown_stained_glass
+- minecraft:green_stained_glass
+- minecraft:red_stained_glass
+- minecraft:black_stained_glass
 
 #occultism:netherrack
 - minecraft:netherrack
@@ -3668,8 +3683,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - #tconstruct:seared_tanks
 
 #forge:glass_panes/brown
-- minecraft:brown_stained_glass_pane
 - tconstruct:brown_clear_stained_glass_pane
+- minecraft:brown_stained_glass_pane
 
 #twilightforest:mangrove_logs
 - twilightforest:mangrove_log
@@ -3729,19 +3744,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - minecraft:weeping_vines_plant
 - minecraft:twisting_vines
 - minecraft:twisting_vines_plant
-- aoa3:stranglewood_log
-- aoa3:stranglewood
-- aoa3:archaic_ladder
-- aoa3:ancient_vines
-- aoa3:ancient_vines_cap
-- aoa3:creep_vines
-- twilightforest:iron_ladder
 - tconstruct:seared_ladder
 - tconstruct:scorched_ladder
-- immersiveengineering:metal_ladder_none
-- immersiveengineering:metal_ladder_alu
-- immersiveengineering:metal_ladder_steel
-- botania:solid_vine
 - byg:weeping_roots
 - byg:weeping_roots_plant
 - byg:sythian_scaffolding
@@ -3758,6 +3762,17 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - byg:shulkren_vine_plant
 - byg:imparius_vine
 - byg:imparius_vine_plant
+- twilightforest:iron_ladder
+- immersiveengineering:metal_ladder_none
+- immersiveengineering:metal_ladder_alu
+- immersiveengineering:metal_ladder_steel
+- aoa3:stranglewood_log
+- aoa3:stranglewood
+- aoa3:archaic_ladder
+- aoa3:ancient_vines
+- aoa3:ancient_vines_cap
+- aoa3:creep_vines
+- botania:solid_vine
 
 #byg:ground_redwood_sapling
 - #forge:dirt
@@ -3779,12 +3794,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 
 #forge:storage_blocks/steel
 - mekanism:block_steel
-- immersiveengineering:storage_steel
 - libvulpes:blocksteel
+- immersiveengineering:storage_steel
 
 #forge:glass_panes
-- #forge:glass_panes/colorless
-- #forge:stained_glass_panes
 - create:tiled_glass_pane
 - create:framed_glass_pane
 - create:horizontal_framed_glass_pane
@@ -3798,6 +3811,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - create:crimson_window_pane
 - create:warped_window_pane
 - create:ornate_iron_window_pane
+- #forge:glass_panes/colorless
+- #forge:stained_glass_panes
 
 #minecraft:coral_plants
 - minecraft:tube_coral
@@ -3987,6 +4002,11 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 #minecraft:fences
 - #minecraft:wooden_fences
 - minecraft:nether_brick_fence
+- tconstruct:scorched_bricks_fence
+- tconstruct:nahuatl_fence
+- immersiveengineering:alu_fence
+- immersiveengineering:steel_fence
+- immersiveengineering:treated_fence
 - aoa3:achony_fence
 - aoa3:bloodwood_fence
 - aoa3:churry_fence
@@ -4002,11 +4022,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - aoa3:stranglewood_fence
 - aoa3:toxicwood_fence
 - aoa3:twinklestone_fence
-- tconstruct:scorched_bricks_fence
-- tconstruct:nahuatl_fence
-- immersiveengineering:alu_fence
-- immersiveengineering:steel_fence
-- immersiveengineering:treated_fence
 - botania:dreamwood_fence
 - botania:livingwood_fence
 
@@ -4017,47 +4032,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - minecraft:jungle_sapling
 - minecraft:acacia_sapling
 - minecraft:dark_oak_sapling
-- aoa3:achony_sapling
-- aoa3:bloodtwister_sapling
-- aoa3:blue_celevus_sapling
-- aoa3:blue_haven_sapling
-- aoa3:bright_shyre_sapling
-- aoa3:churry_sapling
-- aoa3:creep_sapling
-- aoa3:dawnwood_sapling
-- aoa3:eyebush_sapling
-- aoa3:eye_hanger_sapling
-- aoa3:green_celevus_sapling
-- aoa3:haunted_sapling
-- aoa3:irodust_sapling
-- aoa3:irogold_sapling
-- aoa3:lucalus_sapling
-- aoa3:lunicia_sapling
-- aoa3:lunosso_sapling
-- aoa3:pink_haven_sapling
-- aoa3:purple_celevus_sapling
-- aoa3:purple_haven_sapling
-- aoa3:red_celevus_sapling
-- aoa3:red_haven_sapling
-- aoa3:runic_sapling
-- aoa3:shadow_sapling
-- aoa3:shyre_sapling
-- aoa3:stranglewood_sapling
-- aoa3:turquoise_haven_sapling
-- aoa3:yellow_celevus_sapling
-- aoa3:yellow_haven_sapling
-- twilightforest:twilight_oak_sapling
-- twilightforest:canopy_sapling
-- twilightforest:mangrove_sapling
-- twilightforest:darkwood_sapling
-- twilightforest:time_sapling
-- twilightforest:transformation_sapling
-- twilightforest:mining_sapling
-- twilightforest:sorting_sapling
-- twilightforest:hollow_oak_sapling
-- twilightforest:rainboak_sapling
 - #tconstruct:slimy_saplings
-- #occultism:saplings/otherworld
 - byg:aspen_sapling
 - byg:baobab_sapling
 - byg:blue_enchanted_sapling
@@ -4102,6 +4077,46 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - byg:withering_oak_sapling
 - byg:ether_sapling
 - byg:nightshade_sapling
+- twilightforest:twilight_oak_sapling
+- twilightforest:canopy_sapling
+- twilightforest:mangrove_sapling
+- twilightforest:darkwood_sapling
+- twilightforest:time_sapling
+- twilightforest:transformation_sapling
+- twilightforest:mining_sapling
+- twilightforest:sorting_sapling
+- twilightforest:hollow_oak_sapling
+- twilightforest:rainboak_sapling
+- aoa3:achony_sapling
+- aoa3:bloodtwister_sapling
+- aoa3:blue_celevus_sapling
+- aoa3:blue_haven_sapling
+- aoa3:bright_shyre_sapling
+- aoa3:churry_sapling
+- aoa3:creep_sapling
+- aoa3:dawnwood_sapling
+- aoa3:eyebush_sapling
+- aoa3:eye_hanger_sapling
+- aoa3:green_celevus_sapling
+- aoa3:haunted_sapling
+- aoa3:irodust_sapling
+- aoa3:irogold_sapling
+- aoa3:lucalus_sapling
+- aoa3:lunicia_sapling
+- aoa3:lunosso_sapling
+- aoa3:pink_haven_sapling
+- aoa3:purple_celevus_sapling
+- aoa3:purple_haven_sapling
+- aoa3:red_celevus_sapling
+- aoa3:red_haven_sapling
+- aoa3:runic_sapling
+- aoa3:shadow_sapling
+- aoa3:shyre_sapling
+- aoa3:stranglewood_sapling
+- aoa3:turquoise_haven_sapling
+- aoa3:yellow_celevus_sapling
+- aoa3:yellow_haven_sapling
+- #occultism:saplings/otherworld
 
 #forge:storage_blocks/tin
 - mekanism:block_tin
@@ -4112,12 +4127,12 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - occultism:candle_white
 
 #forge:ores/copper
-- mekanism:copper_ore
-- iceandfire:copper_ore
 - tconstruct:copper_ore
-- immersiveengineering:ore_copper
+- mekanism:copper_ore
 - create:copper_ore
 - libvulpes:orecopper
+- iceandfire:copper_ore
+- immersiveengineering:ore_copper
 - occultism:copper_ore
 - thermal:copper_ore
 
@@ -4222,25 +4237,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - minecraft:jungle_fence
 - minecraft:crimson_fence
 - minecraft:warped_fence
-- aoa3:achony_fence
-- aoa3:bloodwood_fence
-- aoa3:churry_fence
-- aoa3:creep_fence
-- aoa3:dawnwood_fence
-- aoa3:hauntedwood_fence
-- aoa3:irowood_fence
-- aoa3:lucalus_fence
-- aoa3:lunide_fence
-- aoa3:runic_fence
-- aoa3:shadow_fence
-- aoa3:shyre_fence
-- aoa3:stranglewood_fence
-- aoa3:toxicwood_fence
-- #twilightforest:fences
 - tconstruct:greenheart_fence
 - tconstruct:skyroot_fence
 - tconstruct:bloodshroom_fence
-- immersiveengineering:treated_fence
 - byg:aspen_fence
 - byg:baobab_fence
 - byg:blue_enchanted_fence
@@ -4270,6 +4269,22 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - byg:bulbis_fence
 - byg:nightshade_fence
 - byg:imparius_fence
+- #twilightforest:fences
+- immersiveengineering:treated_fence
+- aoa3:achony_fence
+- aoa3:bloodwood_fence
+- aoa3:churry_fence
+- aoa3:creep_fence
+- aoa3:dawnwood_fence
+- aoa3:hauntedwood_fence
+- aoa3:irowood_fence
+- aoa3:lucalus_fence
+- aoa3:lunide_fence
+- aoa3:runic_fence
+- aoa3:shadow_fence
+- aoa3:shyre_fence
+- aoa3:stranglewood_fence
+- aoa3:toxicwood_fence
 
 #forge:storage_blocks/knightslime
 - tconstruct:knightslime_block
@@ -4396,8 +4411,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - #forge:dirt
 
 #forge:glass/magenta
-- minecraft:magenta_stained_glass
 - tconstruct:magenta_clear_stained_glass
+- minecraft:magenta_stained_glass
 
 #forge:wool/green
 - minecraft:green_wool
@@ -4440,6 +4455,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - minecraft:dark_oak_wall_sign
 - minecraft:crimson_wall_sign
 - minecraft:warped_wall_sign
+- tconstruct:greenheart_wall_sign
+- tconstruct:skyroot_wall_sign
+- tconstruct:bloodshroom_wall_sign
 - twilightforest:twilight_wall_sign
 - twilightforest:canopy_wall_sign
 - twilightforest:mangrove_wall_sign
@@ -4448,9 +4466,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - twilightforest:trans_wall_sign
 - twilightforest:mine_wall_sign
 - twilightforest:sort_wall_sign
-- tconstruct:greenheart_wall_sign
-- tconstruct:skyroot_wall_sign
-- tconstruct:bloodshroom_wall_sign
 
 #tconstruct:seared_tanks
 - tconstruct:seared_fuel_tank
@@ -4560,8 +4575,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - tconstruct:sky_vanilla_slime_grass
 
 #forge:glass/cyan
-- minecraft:cyan_stained_glass
 - tconstruct:cyan_clear_stained_glass
+- minecraft:cyan_stained_glass
 
 #botania:shiny_flowers
 - botania:black_shiny_flower
@@ -4620,52 +4635,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - minecraft:dark_oak_leaves
 - minecraft:acacia_leaves
 - minecraft:birch_leaves
-- aoa3:achony_leaves
-- aoa3:blood_leaves
-- aoa3:blue_celevus_leaves
-- aoa3:green_celevus_leaves
-- aoa3:purple_celevus_leaves
-- aoa3:red_celevus_leaves
-- aoa3:white_celevus_leaves
-- aoa3:yellow_celevus_leaves
-- aoa3:churry_leaves
-- aoa3:creep_leaves
-- aoa3:dawn_leaves
-- aoa3:haunted_leaves
-- aoa3:haunted_eyes_leaves
-- aoa3:blue_haven_leaves
-- aoa3:pink_haven_leaves
-- aoa3:purple_haven_leaves
-- aoa3:red_haven_leaves
-- aoa3:turquoise_haven_leaves
-- aoa3:yellow_haven_leaves
-- aoa3:irodust_leaves
-- aoa3:irogold_leaves
-- aoa3:lelyetian_leaves
-- aoa3:lucalus_leaves
-- aoa3:lunicia_leaves
-- aoa3:lunosso_leaves
-- aoa3:runic_leaves
-- aoa3:shadow_leaves
-- aoa3:shadowblood_leaves
-- aoa3:shyre_leaves
-- aoa3:bright_shyre_leaves
-- aoa3:stranglewood_leaves
-- aoa3:vein_leaves
-- twilightforest:rainboak_leaves
-- twilightforest:twilight_oak_leaves
-- twilightforest:canopy_leaves
-- twilightforest:mangrove_leaves
-- twilightforest:dark_leaves
-- twilightforest:time_leaves
-- twilightforest:transformation_leaves
-- twilightforest:mining_leaves
-- twilightforest:sorting_leaves
-- twilightforest:thorn_leaves
-- twilightforest:beanstalk_leaves
 - #tconstruct:slimy_leaves
-- occultism:otherworld_leaves
-- occultism:otherworld_leaves_natural
 - byg:baobab_leaves
 - byg:blooming_witch_hazel_leaves
 - byg:blue_enchanted_leaves
@@ -4722,6 +4692,51 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - byg:flowering_nightshade_leaves
 - byg:flowering_jacaranda_leaves
 - byg:flowering_indigo_jacaranda_leaves
+- twilightforest:rainboak_leaves
+- twilightforest:twilight_oak_leaves
+- twilightforest:canopy_leaves
+- twilightforest:mangrove_leaves
+- twilightforest:dark_leaves
+- twilightforest:time_leaves
+- twilightforest:transformation_leaves
+- twilightforest:mining_leaves
+- twilightforest:sorting_leaves
+- twilightforest:thorn_leaves
+- twilightforest:beanstalk_leaves
+- aoa3:achony_leaves
+- aoa3:blood_leaves
+- aoa3:blue_celevus_leaves
+- aoa3:green_celevus_leaves
+- aoa3:purple_celevus_leaves
+- aoa3:red_celevus_leaves
+- aoa3:white_celevus_leaves
+- aoa3:yellow_celevus_leaves
+- aoa3:churry_leaves
+- aoa3:creep_leaves
+- aoa3:dawn_leaves
+- aoa3:haunted_leaves
+- aoa3:haunted_eyes_leaves
+- aoa3:blue_haven_leaves
+- aoa3:pink_haven_leaves
+- aoa3:purple_haven_leaves
+- aoa3:red_haven_leaves
+- aoa3:turquoise_haven_leaves
+- aoa3:yellow_haven_leaves
+- aoa3:irodust_leaves
+- aoa3:irogold_leaves
+- aoa3:lelyetian_leaves
+- aoa3:lucalus_leaves
+- aoa3:lunicia_leaves
+- aoa3:lunosso_leaves
+- aoa3:runic_leaves
+- aoa3:shadow_leaves
+- aoa3:shadowblood_leaves
+- aoa3:shyre_leaves
+- aoa3:bright_shyre_leaves
+- aoa3:stranglewood_leaves
+- aoa3:vein_leaves
+- occultism:otherworld_leaves
+- occultism:otherworld_leaves_natural
 
 #buzzier_bees:flower_blacklist
 - #botania:mystical_flowers
@@ -4758,8 +4773,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - byg:stripped_witch_hazel_wood
 
 #forge:glass_panes/gray
-- minecraft:gray_stained_glass_pane
 - tconstruct:gray_clear_stained_glass_pane
+- minecraft:gray_stained_glass_pane
 
 #minecraft:wither_immune
 - minecraft:barrier
@@ -4823,22 +4838,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - byg:stripped_mahogany_wood
 
 #forge:stained_glass_panes
-- minecraft:white_stained_glass_pane
-- minecraft:orange_stained_glass_pane
-- minecraft:magenta_stained_glass_pane
-- minecraft:light_blue_stained_glass_pane
-- minecraft:yellow_stained_glass_pane
-- minecraft:lime_stained_glass_pane
-- minecraft:pink_stained_glass_pane
-- minecraft:gray_stained_glass_pane
-- minecraft:light_gray_stained_glass_pane
-- minecraft:cyan_stained_glass_pane
-- minecraft:purple_stained_glass_pane
-- minecraft:blue_stained_glass_pane
-- minecraft:brown_stained_glass_pane
-- minecraft:green_stained_glass_pane
-- minecraft:red_stained_glass_pane
-- minecraft:black_stained_glass_pane
 - tconstruct:white_clear_stained_glass_pane
 - tconstruct:orange_clear_stained_glass_pane
 - tconstruct:magenta_clear_stained_glass_pane
@@ -4855,6 +4854,22 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - tconstruct:green_clear_stained_glass_pane
 - tconstruct:red_clear_stained_glass_pane
 - tconstruct:black_clear_stained_glass_pane
+- minecraft:white_stained_glass_pane
+- minecraft:orange_stained_glass_pane
+- minecraft:magenta_stained_glass_pane
+- minecraft:light_blue_stained_glass_pane
+- minecraft:yellow_stained_glass_pane
+- minecraft:lime_stained_glass_pane
+- minecraft:pink_stained_glass_pane
+- minecraft:gray_stained_glass_pane
+- minecraft:light_gray_stained_glass_pane
+- minecraft:cyan_stained_glass_pane
+- minecraft:purple_stained_glass_pane
+- minecraft:blue_stained_glass_pane
+- minecraft:brown_stained_glass_pane
+- minecraft:green_stained_glass_pane
+- minecraft:red_stained_glass_pane
+- minecraft:black_stained_glass_pane
 
 #capsule:excluded
 - #tombstone:graves
@@ -4891,8 +4906,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - #forge:dirt
 
 #forge:glass/brown
-- minecraft:brown_stained_glass
 - tconstruct:brown_clear_stained_glass
+- minecraft:brown_stained_glass
 
 #forge:wool/purple
 - minecraft:purple_wool
@@ -4933,13 +4948,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - #minecraft:birch_logs
 - #minecraft:jungle_logs
 - #minecraft:spruce_logs
-- #twilightforest:twilight_oak_logs
-- #twilightforest:canopy_logs
-- #twilightforest:mangrove_logs
-- #twilightforest:timewood_logs
-- #twilightforest:transwood_logs
-- #twilightforest:mining_logs
-- #twilightforest:sortwood_logs
 - #tconstruct:greenheart_logs
 - #tconstruct:skyroot_logs
 - #byg:aspen_logs
@@ -4970,6 +4978,13 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - #byg:nightshade_logs
 - #byg:withering_oak_logs
 - #byg:imparius_stems
+- #twilightforest:twilight_oak_logs
+- #twilightforest:canopy_logs
+- #twilightforest:mangrove_logs
+- #twilightforest:timewood_logs
+- #twilightforest:transwood_logs
+- #twilightforest:mining_logs
+- #twilightforest:sortwood_logs
 
 #forge:ores/red_gemstone
 - aoa3:red_gemstone_ore
@@ -4978,12 +4993,12 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - aoa3:rosite_ore
 
 #forge:glass/gray
-- minecraft:gray_stained_glass
 - tconstruct:gray_clear_stained_glass
+- minecraft:gray_stained_glass
 
 #forge:glass/light_gray
-- minecraft:light_gray_stained_glass
 - tconstruct:light_gray_clear_stained_glass
+- minecraft:light_gray_stained_glass
 
 #twilightforest:ore_magnet/minecraft/netherrack
 - minecraft:nether_gold_ore
@@ -5001,28 +5016,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - minecraft:dark_oak_slab
 - minecraft:crimson_slab
 - minecraft:warped_slab
-- aoa3:achony_slab
-- aoa3:bloodwood_slab
-- aoa3:churry_slab
-- aoa3:creep_slab
-- aoa3:dawnwood_slab
-- aoa3:hauntedwood_slab
-- aoa3:irowood_slab
-- aoa3:lucalus_slab
-- aoa3:lunide_slab
-- aoa3:runic_slab
-- aoa3:shadow_slab
-- aoa3:shyre_slab
-- aoa3:stranglewood_slab
-- aoa3:toxicwood_slab
-- twilightforest:twilight_oak_slab
-- twilightforest:canopy_slab
-- twilightforest:mangrove_slab
-- twilightforest:dark_slab
-- twilightforest:time_slab
-- twilightforest:trans_slab
-- twilightforest:mine_slab
-- twilightforest:sort_slab
 - tconstruct:greenheart_planks_slab
 - tconstruct:skyroot_planks_slab
 - tconstruct:bloodshroom_planks_slab
@@ -5055,6 +5048,28 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - byg:bulbis_slab
 - byg:nightshade_slab
 - byg:imparius_slab
+- twilightforest:twilight_oak_slab
+- twilightforest:canopy_slab
+- twilightforest:mangrove_slab
+- twilightforest:dark_slab
+- twilightforest:time_slab
+- twilightforest:trans_slab
+- twilightforest:mine_slab
+- twilightforest:sort_slab
+- aoa3:achony_slab
+- aoa3:bloodwood_slab
+- aoa3:churry_slab
+- aoa3:creep_slab
+- aoa3:dawnwood_slab
+- aoa3:hauntedwood_slab
+- aoa3:irowood_slab
+- aoa3:lucalus_slab
+- aoa3:lunide_slab
+- aoa3:runic_slab
+- aoa3:shadow_slab
+- aoa3:shyre_slab
+- aoa3:stranglewood_slab
+- aoa3:toxicwood_slab
 
 #forge:asphalt
 - immersivepetroleum:asphalt
@@ -5091,29 +5106,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - minecraft:cornflower
 - minecraft:lily_of_the_valley
 - minecraft:wither_rose
-- aoa3:arcbulb
-- aoa3:arcflower
-- aoa3:blue_celevians
-- aoa3:blue_daylooms
-- aoa3:blue_ocealites
-- aoa3:daileers
-- aoa3:dawn_bush
-- aoa3:dawn_flower
-- aoa3:haunted_flower
-- aoa3:horizon_daisies
-- aoa3:lylips
-- aoa3:magias
-- aoa3:pink_daylooms
-- aoa3:purple_celevians
-- aoa3:red_celevians
-- aoa3:runic_bush
-- aoa3:shyre_weed
-- aoa3:white_celevians
-- aoa3:yellow_daylooms
 - iceandfire:fire_lily
 - iceandfire:frost_lily
 - iceandfire:lightning_lily
-- #botania:mystical_flowers
 - byg:allium_flower_bush
 - byg:alpine_bellflower
 - byg:amaranth
@@ -5178,6 +5173,26 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - byg:tall_allium
 - byg:tall_pink_allium
 - byg:thereal_bellflower
+- aoa3:arcbulb
+- aoa3:arcflower
+- aoa3:blue_celevians
+- aoa3:blue_daylooms
+- aoa3:blue_ocealites
+- aoa3:daileers
+- aoa3:dawn_bush
+- aoa3:dawn_flower
+- aoa3:haunted_flower
+- aoa3:horizon_daisies
+- aoa3:lylips
+- aoa3:magias
+- aoa3:pink_daylooms
+- aoa3:purple_celevians
+- aoa3:red_celevians
+- aoa3:runic_bush
+- aoa3:shyre_weed
+- aoa3:white_celevians
+- aoa3:yellow_daylooms
+- #botania:mystical_flowers
 
 #forge:storage_blocks/refined_obsidian
 - mekanism:block_refined_obsidian
@@ -5204,8 +5219,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - aoa3:limonite_block
 
 #forge:glass_panes/black
-- minecraft:black_stained_glass_pane
 - tconstruct:black_clear_stained_glass_pane
+- minecraft:black_stained_glass_pane
 
 #byg:ground_aspen_sapling
 - #forge:dirt
@@ -5265,8 +5280,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - twilightforest:steeleaf_block
 
 #forge:glass_panes/blue
-- minecraft:blue_stained_glass_pane
 - tconstruct:blue_clear_stained_glass_pane
+- minecraft:blue_stained_glass_pane
 
 #byg:ground_horseweed
 - #forge:dirt
@@ -5329,20 +5344,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - minecraft:yellow_wool
 
 #forge:stone
-- aoa3:baron_stone
-- aoa3:darkened_rock
-- aoa3:dense_stone
-- aoa3:hellstone
-- aoa3:precasian_lower_rock
-- aoa3:runic_stone
-- minecraft:andesite
-- minecraft:diorite
-- minecraft:granite
-- minecraft:infested_stone
-- minecraft:stone
-- minecraft:polished_andesite
-- minecraft:polished_diorite
-- minecraft:polished_granite
 - create:limestone
 - create:polished_limestone
 - create:weathered_limestone
@@ -5366,6 +5367,20 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - byg:podzol_dacite
 - byg:red_rock
 - byg:ether_stone
+- minecraft:andesite
+- minecraft:diorite
+- minecraft:granite
+- minecraft:infested_stone
+- minecraft:stone
+- minecraft:polished_andesite
+- minecraft:polished_diorite
+- minecraft:polished_granite
+- aoa3:baron_stone
+- aoa3:darkened_rock
+- aoa3:dense_stone
+- aoa3:hellstone
+- aoa3:precasian_lower_rock
+- aoa3:runic_stone
 
 #byg:ground_withering_oak_sapling
 - #forge:dirt
@@ -5398,6 +5413,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - minecraft:dark_oak_sign
 - minecraft:crimson_sign
 - minecraft:warped_sign
+- tconstruct:greenheart_sign
+- tconstruct:skyroot_sign
+- tconstruct:bloodshroom_sign
 - twilightforest:twilight_oak_sign
 - twilightforest:canopy_sign
 - twilightforest:mangrove_sign
@@ -5406,17 +5424,14 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - twilightforest:trans_sign
 - twilightforest:mine_sign
 - twilightforest:sort_sign
-- tconstruct:greenheart_sign
-- tconstruct:skyroot_sign
-- tconstruct:bloodshroom_sign
 
 #minecraft:infiniburn_end
 - #minecraft:infiniburn_overworld
 - minecraft:bedrock
 
 #forge:glass_panes/yellow
-- minecraft:yellow_stained_glass_pane
 - tconstruct:yellow_clear_stained_glass_pane
+- minecraft:yellow_stained_glass_pane
 
 #byg:ground_white_sage
 - #forge:dirt
@@ -5593,8 +5608,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - byg:stripped_aspen_wood
 
 #forge:glass_panes/purple
-- minecraft:purple_stained_glass_pane
 - tconstruct:purple_clear_stained_glass_pane
+- minecraft:purple_stained_glass_pane
 
 #tconstruct:slimy_soil/ichor
 - tconstruct:earth_ichor_slime_grass
@@ -5605,8 +5620,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - tconstruct:ichor_slime_dirt
 
 #forge:glass/yellow
-- minecraft:yellow_stained_glass
 - tconstruct:yellow_clear_stained_glass
+- minecraft:yellow_stained_glass
 
 #byg:ground_nightshade_sapling
 - #forge:dirt
@@ -5662,29 +5677,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - tconstruct:slimesteel_block
 
 #forge:dirt
-- aoa3:aromatic_dirt
-- aoa3:blackened_soil
-- aoa3:candied_dirt
-- aoa3:celevian_dirt
-- aoa3:coral_soil
-- aoa3:creep_dirt
-- aoa3:fungal_dirt
-- aoa3:greckon_dirt
-- aoa3:lunasole_dirt
-- aoa3:lunalyte_dirt
-- aoa3:polluted_soil
-- aoa3:weightless_dirt
-- minecraft:dirt
-- minecraft:grass_block
-- minecraft:coarse_dirt
-- minecraft:podzol
-- minecraft:mycelium
-- botania:dry_grass
-- botania:golden_grass
-- botania:infused_grass
-- botania:mutated_grass
-- botania:scorched_grass
-- botania:vivid_grass
 - byg:meadow_grass_block
 - byg:meadow_dirt
 - byg:peat
@@ -5707,6 +5699,29 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - minecraft:coarse_dirt
 - minecraft:podzol
 - minecraft:mycelium
+- minecraft:dirt
+- minecraft:grass_block
+- minecraft:coarse_dirt
+- minecraft:podzol
+- minecraft:mycelium
+- aoa3:aromatic_dirt
+- aoa3:blackened_soil
+- aoa3:candied_dirt
+- aoa3:celevian_dirt
+- aoa3:coral_soil
+- aoa3:creep_dirt
+- aoa3:fungal_dirt
+- aoa3:greckon_dirt
+- aoa3:lunasole_dirt
+- aoa3:lunalyte_dirt
+- aoa3:polluted_soil
+- aoa3:weightless_dirt
+- botania:dry_grass
+- botania:golden_grass
+- botania:infused_grass
+- botania:mutated_grass
+- botania:scorched_grass
+- botania:vivid_grass
 
 #minecraft:bamboo_plantable_on
 - #minecraft:sand
@@ -5718,17 +5733,17 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - minecraft:podzol
 - minecraft:coarse_dirt
 - minecraft:mycelium
+- byg:peat
+- byg:meadow_grass_block
+- byg:meadow_dirt
+- byg:overgrown_stone
+- #forge:sand
 - botania:dry_grass
 - botania:golden_grass
 - botania:vivid_grass
 - botania:scorched_grass
 - botania:infused_grass
 - botania:mutated_grass
-- byg:peat
-- byg:meadow_grass_block
-- byg:meadow_dirt
-- byg:overgrown_stone
-- #forge:sand
 
 #forge:storage_blocks/pig_iron
 - tconstruct:pig_iron_block
@@ -5785,29 +5800,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - #forge:dirt
 
 #forge:fence_gates/wooden
-- aoa3:achony_fence_gate
-- aoa3:bloodwood_fence_gate
-- aoa3:churry_fence_gate
-- aoa3:creep_fence_gate
-- aoa3:dawnwood_fence_gate
-- aoa3:hauntedwood_fence_gate
-- aoa3:irowood_fence_gate
-- aoa3:lucalus_fence_gate
-- aoa3:lunide_fence_gate
-- aoa3:runic_fence_gate
-- aoa3:shadow_fence_gate
-- aoa3:shyre_fence_gate
-- aoa3:stranglewood_fence_gate
-- aoa3:toxicwood_fence_gate
-- minecraft:oak_fence_gate
-- minecraft:spruce_fence_gate
-- minecraft:birch_fence_gate
-- minecraft:jungle_fence_gate
-- minecraft:acacia_fence_gate
-- minecraft:dark_oak_fence_gate
-- minecraft:crimson_fence_gate
-- minecraft:warped_fence_gate
-- #twilightforest:fence_gates
 - tconstruct:greenheart_fence_gate
 - tconstruct:skyroot_fence_gate
 - tconstruct:bloodshroom_fence_gate
@@ -5840,18 +5832,41 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - byg:bulbis_fence_gate
 - byg:nightshade_fence_gate
 - byg:imparius_fence_gate
+- minecraft:oak_fence_gate
+- minecraft:spruce_fence_gate
+- minecraft:birch_fence_gate
+- minecraft:jungle_fence_gate
+- minecraft:acacia_fence_gate
+- minecraft:dark_oak_fence_gate
+- minecraft:crimson_fence_gate
+- minecraft:warped_fence_gate
+- #twilightforest:fence_gates
+- aoa3:achony_fence_gate
+- aoa3:bloodwood_fence_gate
+- aoa3:churry_fence_gate
+- aoa3:creep_fence_gate
+- aoa3:dawnwood_fence_gate
+- aoa3:hauntedwood_fence_gate
+- aoa3:irowood_fence_gate
+- aoa3:lucalus_fence_gate
+- aoa3:lunide_fence_gate
+- aoa3:runic_fence_gate
+- aoa3:shadow_fence_gate
+- aoa3:shyre_fence_gate
+- aoa3:stranglewood_fence_gate
+- aoa3:toxicwood_fence_gate
 
 #forge:ores/aluminum
-- immersiveengineering:ore_aluminum
 - libvulpes:orealuminum
+- immersiveengineering:ore_aluminum
 
 #forge:ores/uranium
 - mekanism:uranium_ore
 - immersiveengineering:ore_uranium
 
 #forge:glass_panes/lime
-- minecraft:lime_stained_glass_pane
 - tconstruct:lime_clear_stained_glass_pane
+- minecraft:lime_stained_glass_pane
 
 #forge:storage_blocks/manyullyn
 - tconstruct:manyullyn_block
@@ -5980,6 +5995,13 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 #minecraft:flowers
 - #minecraft:small_flowers
 - #minecraft:tall_flowers
+- byg:flowering_indigo_jacaranda_bush
+- byg:flowering_jacaranda_bush
+- byg:flowering_indigo_jacaranda_leaves
+- byg:flowering_jacaranda_leaves
+- byg:flowering_orchard_leaves
+- byg:flowering_palo_verde_leaves
+- byg:flowering_nightshade_leaves
 - aoa3:arcbulb
 - aoa3:arcflower
 - aoa3:blue_celevians
@@ -5999,13 +6021,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - aoa3:shyre_weed
 - aoa3:white_celevians
 - aoa3:yellow_daylooms
-- byg:flowering_indigo_jacaranda_bush
-- byg:flowering_jacaranda_bush
-- byg:flowering_indigo_jacaranda_leaves
-- byg:flowering_jacaranda_leaves
-- byg:flowering_orchard_leaves
-- byg:flowering_palo_verde_leaves
-- byg:flowering_nightshade_leaves
 
 #forge:storage_blocks/cobalt
 - tconstruct:cobalt_block
@@ -6022,33 +6037,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - minecraft:dark_oak_planks
 - minecraft:crimson_planks
 - minecraft:warped_planks
-- aoa3:achony_planks
-- aoa3:bloodwood_planks
-- aoa3:churry_planks
-- aoa3:creep_planks
-- aoa3:dawnwood_planks
-- aoa3:hauntedwood_planks
-- aoa3:irowood_planks
-- aoa3:lucalus_planks
-- aoa3:lunide_planks
-- aoa3:runic_planks
-- aoa3:shadow_planks
-- aoa3:shyre_planks
-- aoa3:stranglewood_planks
-- aoa3:toxicwood_planks
-- twilightforest:twilight_oak_planks
-- twilightforest:canopy_planks
-- twilightforest:mangrove_planks
-- twilightforest:dark_planks
-- twilightforest:time_planks
-- twilightforest:trans_planks
-- twilightforest:mine_planks
-- twilightforest:sort_planks
-- twilightforest:tower_wood
-- twilightforest:tower_wood_encased
-- twilightforest:tower_wood_cracked
-- twilightforest:tower_wood_mossy
-- twilightforest:tower_wood_infested
 - #tconstruct:slimy_planks
 - byg:aspen_planks
 - byg:baobab_planks
@@ -6079,6 +6067,33 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - byg:bulbis_planks
 - byg:nightshade_planks
 - byg:imparius_planks
+- twilightforest:twilight_oak_planks
+- twilightforest:canopy_planks
+- twilightforest:mangrove_planks
+- twilightforest:dark_planks
+- twilightforest:time_planks
+- twilightforest:trans_planks
+- twilightforest:mine_planks
+- twilightforest:sort_planks
+- twilightforest:tower_wood
+- twilightforest:tower_wood_encased
+- twilightforest:tower_wood_cracked
+- twilightforest:tower_wood_mossy
+- twilightforest:tower_wood_infested
+- aoa3:achony_planks
+- aoa3:bloodwood_planks
+- aoa3:churry_planks
+- aoa3:creep_planks
+- aoa3:dawnwood_planks
+- aoa3:hauntedwood_planks
+- aoa3:irowood_planks
+- aoa3:lucalus_planks
+- aoa3:lunide_planks
+- aoa3:runic_planks
+- aoa3:shadow_planks
+- aoa3:shyre_planks
+- aoa3:stranglewood_planks
+- aoa3:toxicwood_planks
 
 #botania:special_flowers
 - #botania:misc_special_flowers
@@ -6086,21 +6101,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - #botania:functional_special_flowers
 
 #forge:cobblestone
-- aoa3:abyssal_stone
-- aoa3:aromatic_stone
-- aoa3:bright_rock
-- aoa3:coral_rock
-- aoa3:crystallised_rock
-- aoa3:fungal_rock
-- aoa3:greckon_stone
-- aoa3:irostone
-- aoa3:lelyetian_stone
-- aoa3:polluted_stone
-- aoa3:precasian_surface_rock
-- aoa3:weightless_stone
-- minecraft:cobblestone
-- minecraft:infested_cobblestone
-- minecraft:mossy_cobblestone
 - create:granite_cobblestone
 - create:diorite_cobblestone
 - create:andesite_cobblestone
@@ -6115,6 +6115,21 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - byg:scoria_cobblestone
 - byg:soapstone
 - byg:cobbled_ether_stone
+- minecraft:cobblestone
+- minecraft:infested_cobblestone
+- minecraft:mossy_cobblestone
+- aoa3:abyssal_stone
+- aoa3:aromatic_stone
+- aoa3:bright_rock
+- aoa3:coral_rock
+- aoa3:crystallised_rock
+- aoa3:fungal_rock
+- aoa3:greckon_stone
+- aoa3:irostone
+- aoa3:lelyetian_stone
+- aoa3:polluted_stone
+- aoa3:precasian_surface_rock
+- aoa3:weightless_stone
 
 #byg:cika_logs
 - byg:cika_log
@@ -6209,10 +6224,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - minecraft:spruce_fence_gate
 - minecraft:crimson_fence_gate
 - minecraft:warped_fence_gate
-- #twilightforest:fence_gates
 - tconstruct:greenheart_fence_gate
 - tconstruct:skyroot_fence_gate
 - tconstruct:bloodshroom_fence_gate
+- #twilightforest:fence_gates
 - botania:dreamwood_fence_gate
 - botania:livingwood_fence_gate
 
@@ -6221,6 +6236,53 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - byg:budding_ametrine_ore
 
 #forge:ores
+- #forge:ores/cobalt
+- #forge:ores/copper
+- #forge:ores/copper
+- #forge:ores/tin
+- #forge:ores/osmium
+- #forge:ores/uranium
+- #forge:ores/fluorite
+- #forge:ores/lead
+- create:copper_ore
+- create:zinc_ore
+- #forge:ores/certus_quartz
+- libvulpes:orecopper
+- libvulpes:oretin
+- libvulpes:orerutile
+- libvulpes:orealuminum
+- libvulpes:oreiridium
+- iceandfire:silver_ore
+- iceandfire:sapphire_ore
+- iceandfire:copper_ore
+- iceandfire:amythest_ore
+- byg:ametrine_ore
+- byg:anthracite_ore
+- byg:budding_ametrine_ore
+- byg:cryptic_redstone_ore
+- byg:lignite_ore
+- byg:pendorite_ore
+- byg:blue_nether_gold_ore
+- byg:blue_nether_quartz_ore
+- byg:brimstone_nether_gold_ore
+- byg:brimstone_nether_quartz_ore
+- #forge:ores/coal
+- #forge:ores/diamond
+- #forge:ores/emerald
+- #forge:ores/gold
+- #forge:ores/iron
+- #forge:ores/lapis
+- #forge:ores/redstone
+- #forge:ores/quartz
+- #forge:ores/netherite_scrap
+- #forge:ores/ironwood
+- #forge:ores/knightmetal
+- immersiveengineering:ore_copper
+- immersiveengineering:ore_aluminum
+- immersiveengineering:ore_lead
+- immersiveengineering:ore_silver
+- immersiveengineering:ore_nickel
+- immersiveengineering:ore_uranium
 - aoa3:amethyst_ore
 - aoa3:baronyte_ore
 - aoa3:blazium_ore
@@ -6255,55 +6317,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - aoa3:white_gemstone_ore
 - aoa3:yellow_gemstone_ore
 - #forge:ores/copper
-- #forge:ores/tin
-- #forge:ores/osmium
-- #forge:ores/uranium
-- #forge:ores/fluorite
-- #forge:ores/lead
-- #forge:ores/certus_quartz
-- iceandfire:silver_ore
-- iceandfire:sapphire_ore
-- iceandfire:copper_ore
-- iceandfire:amythest_ore
-- #forge:ores/coal
-- #forge:ores/diamond
-- #forge:ores/emerald
-- #forge:ores/gold
-- #forge:ores/iron
-- #forge:ores/lapis
-- #forge:ores/redstone
-- #forge:ores/quartz
-- #forge:ores/netherite_scrap
-- #forge:ores/ironwood
-- #forge:ores/knightmetal
-- #forge:ores/cobalt
-- #forge:ores/copper
-- immersiveengineering:ore_copper
-- immersiveengineering:ore_aluminum
-- immersiveengineering:ore_lead
-- immersiveengineering:ore_silver
-- immersiveengineering:ore_nickel
-- immersiveengineering:ore_uranium
-- create:copper_ore
-- create:zinc_ore
-- libvulpes:orecopper
-- libvulpes:oretin
-- libvulpes:orerutile
-- libvulpes:orealuminum
-- libvulpes:oreiridium
-- #forge:ores/copper
 - #forge:ores/silver
 - #forge:ores/iesnium
-- byg:ametrine_ore
-- byg:anthracite_ore
-- byg:budding_ametrine_ore
-- byg:cryptic_redstone_ore
-- byg:lignite_ore
-- byg:pendorite_ore
-- byg:blue_nether_gold_ore
-- byg:blue_nether_quartz_ore
-- byg:brimstone_nether_gold_ore
-- byg:brimstone_nether_quartz_ore
 - #forge:ores/apatite
 - #forge:ores/cinnabar
 - #forge:ores/copper

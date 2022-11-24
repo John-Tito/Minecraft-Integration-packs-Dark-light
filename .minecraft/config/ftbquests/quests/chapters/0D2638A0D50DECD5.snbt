@@ -1,0 +1,62 @@
+{
+	id: "0D2638A0D50DECD5"
+	group: ""
+	order_index: 0
+	filename: "0D2638A0D50DECD5"
+	title: "开始"
+	icon: "minecraft:oak_sapling"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "欢迎进入服务器！"
+			x: -0.5d
+			y: -1.0d
+			shape: "hexagon"
+			size: 3.0d
+			id: "2237F9B6D9176047"
+			tasks: [{
+				id: "448BFEA960E5A6E2"
+				type: "checkmark"
+				title: "开始"
+			}]
+			rewards: [
+				{
+					id: "4037D6AA70BF62C9"
+					type: "item"
+					item: "minecraft:oak_log"
+					count: 16
+				}
+				{
+					id: "022756ABEB977B56"
+					type: "item"
+					item: "minecraft:cobblestone"
+					count: 16
+				}
+				{
+					id: "4A8752B8EC728548"
+					type: "item"
+					item: "minecraft:iron_ingot"
+					count: 4
+				}
+				{
+					id: "1EB50C525FF70EEE"
+					type: "item"
+					item: "ftbquests:book"
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: -2.5d
+			description: ["使用/ftbteams组建你的一个团队，在一起生存，建造！"]
+			dependencies: ["2237F9B6D9176047"]
+			id: "239503E7B3F8D933"
+			tasks: [{
+				id: "209C7253C7493450"
+				type: "checkmark"
+				title: "组建团队"
+			}]
+		}
+	]
+}

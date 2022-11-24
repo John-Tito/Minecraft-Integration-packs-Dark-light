@@ -3,11 +3,11 @@
 [general]
 	#The CurseForge project ID for the modpack
 	#Range: > 0
-	modpackProjectID = 2147483647
+	modpackProjectID = 1145141919810
 	#The name of the modpack
 	modpackName = "暗耀之光模组端"
 	#The version of the modpack
-	modpackVersion = "b2.1"
+	modpackVersion = "2.0"
 	#Use the metadata.json to determine the modpack version
 	#ONLY ENABLE THIS IF YOU KNOW WHAT YOU ARE DOING
 	useMetadata = false
